@@ -1,0 +1,85 @@
+*{   
+   margin:0;   
+   padding:0;   
+}  
+
+
+body	{ 
+	background-color: f8eebb;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.main 	{      
+	width: 210px;
+                  height: 285px;
+	margin: 0 auto;
+	margin-top: 10px
+	background-color: #f8eebb;
+	position: relative;
+	border: thin outset #100;	
+	font-family:calibri,Times New Roman,Arial,Verdana,Helvetica;
+	font-size: 14px;
+	color:#660000;
+	text-align: left;
+	overflow: auto;
+	padding: 10px 10px 10px 10px;
+	}
+
+.formdiv	{ 
+	width: 180px;   
+	border: thin outset #100;	
+	font-family:calibri,Times New Roman,Arial,Verdana,Helvetica;
+	font-size: 14px;
+	color:#660000;
+	text-align: left;
+	overflow: auto;
+	padding: 10px 10px 10px 10px;
+	}
+
+
+
+.letterrood    
+	{	
+	font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 14px;color:#660000;
+	padding-left:2px;
+          	padding-right: 2px 2px 2px 2px;
+
+	}
+
+
+
+
+
+h1 {text-align:center; font-size: 14px;color:#660000;font-family:Calibri,Times New Roman,Arial,Verdana,Helvetica;}
+h2 {font-size: 18px;color:#660000;font-family:Calibri,Times New Roman,Arial,Verdana,Helvetica;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

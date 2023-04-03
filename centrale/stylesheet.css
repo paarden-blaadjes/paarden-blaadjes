@@ -1,0 +1,683 @@
+*{   
+   margin:0;   
+   padding:0;   
+}  
+
+*:focus {outline: none;}
+
+
+body
+	{ 
+	background-color: #8b7d6b;
+	background-image: url("../img/bg.gif") ;
+	background-repeat: repeat-x;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.main {      width: 902px;
+	margin: 0 auto;
+	 top:0px;
+	margin-top: 0px;
+	text-align: left;
+	position: relative;
+	height: 782px; 
+	z-index: 4;
+	}
+
+.back
+	{ 
+	background: url("../img/background.jpg");
+	position: absolute;
+                  background-position: 1px 1px;
+	width: 900px;
+	height: 100%;
+            	background-repeat: no-repeat;
+	z-index: 5;
+	border: thin outset #800;
+            	}
+
+.back-alfabet
+	{ 
+	background: url("../img/background-alfabet.jpg");
+	position: absolute;
+                  background-position: 1px 1px;
+	width: 900px;
+	height: 100%;
+            	background-repeat: no-repeat;
+	z-index: 5;
+	border: thin outset #800;
+            	}
+
+
+.left
+	{
+	position:absolute;
+	width:170px;
+	 top:145px;
+	height: 575px;
+	 left:12px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: left;
+	z-index: 7; 
+	overflow: hidden;
+	}
+
+
+#right
+	{
+	position:absolute;
+	width:126px;
+	 top:139px;
+	height: 576px;
+	 right:2px;
+           	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: left;
+	overflow: auto;
+	z-index: 7; 
+	}
+
+#tekst
+	{
+	position:absolute;
+	width:586px;
+	 top:138px;
+	height: 576px;
+	 left:185px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: center;
+	z-index: 7; 
+	}
+
+#tekstright
+	{
+	position:absolute;
+	width:128px;
+	 top:138px;
+	height: 576px;
+	 left:770px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;color:#660000;
+	text-align: center;
+	z-index: 7; 
+	}
+
+#tekstreclame
+	{
+	position:absolute;
+	width:880px;
+	 top:725px;
+	height: 80px;
+	 left:10px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;color:#660000;
+	text-align: center;
+	z-index: 7; 
+	}
+
+#tekstfooter
+	{
+	position:absolute;
+	width:580px;
+	 top: 702px;
+	height: 15px;
+	 left:185px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;color:#660000;
+	text-align: center;
+	z-index: 70; 
+	}
+
+
+#tekstweetjes
+	{
+	position:absolute;
+	width:586px;
+	 top:138px;
+	height: 576px;
+	 left:185px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: left; 
+	overflow: hidden;
+	z-index: 7; 
+	}
+
+#gastenboek
+	{
+	position:absolute;
+	width:600px;
+	 top:138px;
+	height: 576px;
+	 left:170px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: left; 
+	overflow: hidden;
+	z-index: 7; 
+	}
+
+
+
+#advertenties
+	{
+	position:absolute;
+	width:730px;
+	 top:138px;
+	height: 576px;
+	 left:170px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: left; 
+	overflow: hidden;
+	z-index: 7; 
+	}
+
+
+#tekstweetjesalfabet
+	{
+	position:absolute;
+	width:886px;
+	 top:138px;
+	 left:15px;
+	height: 576px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	overflow: hidden;
+	z-index: 7; 
+	}
+
+.tableweetjes
+	{
+	width:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;      
+             	font-size: 12px;color:#FFFFCC;
+	}
+
+
+
+.letterwitengelsduits     
+	{	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 12px;color:#FFFFCC;
+	padding-left:12px;
+          	padding-right: 12px;
+
+	}
+
+.tabelfixed
+	{
+	margin: 0 auto;
+	font-family:Verdana, Arial, Helvetica, sans-serif;      
+             	font-size: 12px;color:#FFFFCC;
+	table-layout: fixed;
+	border-collapse: collapse; 
+	}
+
+.tabeltitel
+	{
+	border: solid 1px #800;
+       	border-color:#66000;
+	padding: 2px 2px 2px 2px;
+     	background-color: #FFFFCC;
+-moz-opacity: 0.70;
+-khtml-opacity: 0.70;
+opacity: 0.70;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+filter:alpha(opacity=70);
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	font-weight: bold;
+           	 }
+
+.td-tabel1
+	{
+	border: solid 1px #800;
+       	border-color:#66000;
+	padding: 2px 2px 2px 2px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.50;
+-khtml-opacity: 0.50;
+opacity: 0.50;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+filter:alpha(opacity=30);
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	font-weight: bold;
+	}
+
+.td-tabel2
+	{
+	border: solid 1px #800;
+       	border-color:#66000;
+	padding: 2px 2px 2px 2px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.40;
+-khtml-opacity: 0.40;
+opacity: 0.40;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=40);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+filter:alpha(opacity=40);
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	font-weight: bold;
+	}
+
+
+.tablefixed
+	{
+	width:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;      
+             	font-size: 12px;color:#FFFFCC;
+	table-layout: fixed;
+	border-collapse: collapse; 
+	}
+
+.tablefixed2
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;      
+             	font-size: 12px;color:#FFFFCC;
+	table-layout: fixed;
+	border-collapse: collapse; 
+	}
+
+
+.td
+	{
+	border: solid 1px #800;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	}
+
+.tdgif
+	{
+	border: solid 1px #800;
+ 	vertical-align:text-top;
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	font-weight: bold;
+	}
+
+
+.titelwitgif   
+	{
+	border: solid 1px #800;
+	width:100%;
+	height:20px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.50;
+
+-khtml-opacity: 0.50;
+
+opacity: 0.50;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+
+filter:alpha(opacity=50);
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	padding-left:12px;
+          	padding-right: 2px;
+	font-weight: bold;
+           	 }
+
+.td-tabel1
+	{
+	border: solid 1px #800;
+       	border-color:#66000;
+	padding: 2px 2px 2px 2px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.50;
+-khtml-opacity: 0.50;
+opacity: 0.50;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+filter:alpha(opacity=30);
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	font-weight: bold;
+	border: solid 1px #800;
+	}
+
+
+
+.tdcenter
+	{
+	border: solid 1px #800;
+	text-align: center;
+	}
+
+
+.videocel
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;      
+             	font-size: 12px;color:#FFFFCC;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	}
+
+
+.titelwit   
+	{
+	width:100%;
+	height:20px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.50;
+
+-khtml-opacity: 0.50;
+
+opacity: 0.50;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+
+filter:alpha(opacity=50);
+       	border-color:#FEFEFA;
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	padding-left:12px;
+          	padding-right: 2px;
+	font-weight: bold;
+           	 }
+
+.titelwit2   
+	{
+	height:20px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.50;
+
+-khtml-opacity: 0.50;
+
+opacity: 0.50;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+
+filter:alpha(opacity=50);
+       	border-color:#FEFEFA;
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 12px;color:#660000;
+	padding-left:12px;
+          	padding-right: 2px;
+	font-weight: bold;
+           	 }
+
+
+.bronwit   	{		
+	height:30px;
+	padding-left:12px;
+          	padding-right: 2px;
+      	background-color: #FFFFCC;
+-moz-opacity: 0.50;
+
+-khtml-opacity: 0.50;
+
+opacity: 0.50;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+
+filter:alpha(opacity=50);
+       	border-color:#FEFEFA;
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+              	font-size: 8px;color:#660000;
+	font-weight: bold;
+           	 }
+
+.letter-titel  
+	{
+	font-family:Adamsky Outline SF,Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+             	vertical-align: top; 
+	text-align: center;     
+             	font-size: 30px;color:#FFFFD7;
+	padding-right:30px;
+	}
+
+.lettersubtitel  
+	{
+	font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+             	vertical-align: top; 
+	text-align: center;     
+             	font-size: 24px;color:#FFFFD7;
+	padding-right:30px;
+	}
+
+
+.video-titel  
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	text-align: center;     
+             	font-size: 15px;color:#FFFFD7;
+	padding-right:30px;
+	}
+
+.letterwit      
+	{	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 12px;color:#FFFFCC;
+		padding-left:12px;
+          	padding-right: 12px;
+	}
+
+.letterwit-zonder      
+	{	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 12px;color:#FFFFCC;
+          	padding-right: 12px;
+	}
+
+
+.letterrood    
+	{	
+	font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 1opx;color:#660000;
+	padding-left:2px;
+          	padding-right: 2px;
+
+	}
+
+.letterwitlinks      
+	{	
+	font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 14px;color:#FFFFCC;
+	padding-left:200px;
+          	padding-right: 12px;
+	}
+
+.letterwitcenter     
+	{
+	padding-top: 100px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;  
+             	font-size: 12px;color:#FFFFCC;
+	padding-left:120px;
+          	padding-right: 60px;
+	}
+
+.letterwitleft     
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 12px;color:#FFFFCC;
+	}
+
+#iframe
+	{
+	position:absolute;
+	width:586px;
+	 top:138px;
+	height: 576px;
+	 left:185px;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: center;
+	}
+
+#iframeright
+	{
+	background: transparent;
+	width:100%;
+	height: 100%;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: center;
+	}
+
+#iframeleft
+	{
+	background: transparent;
+	width:100%;
+	height: 100%;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: center;
+	}
+
+#iframefooter
+	{
+	background: transparent;
+	width:100%;
+	height: 100%;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: center;
+	}
+
+
+#iframereclame
+	{
+	background: transparent;
+	width:100%;
+	height: 100%;
+            	 font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;color:#660000;
+	text-align: center;
+	}
+
+
+
+.speciaalwit
+{font-size: 14px;color:#FFFFCC; text-decoration: none; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+a.speciaalwit:link, a.speciaalwit:visited{
+color: #FFFFCC;
+}
+a.speciaalwit:hover, a.speciaalwit:active{
+color: #660000;
+} 
+
+.speciaalwit2
+{font-size: 12px;color:#FFFFCC; text-decoration: none; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+a.speciaalwit2:link, a.speciaalwit2:visited{
+color: #FFFFCC;
+}
+a.speciaalwit2:hover, a.speciaalwit2:active{
+color: #660000;
+} 
+
+.speciaalwittekst
+{font-size: 12px;color:#FFFFCC; text-decoration: none; font-family:Verdana, Arial, Helvetica, sans-serif;}
+a.speciaalwittekst:link, a.speciaalwittekst:visited{
+color: f6f670;
+}
+a.speciaalwittekst:hover, a.speciaalwittekst:active{
+color: #660000;
+} 
+
+.speciaalwit8
+{font-size: 24px;color:#FFFFCC; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+a.speciaalwit8:link, a.speciaalwit8:visited{
+color: #FFFFCC;
+}
+a.speciaalwit8:hover, a.speciaalwit8:active{
+color: #660000;
+} 
+
+
+.speciaalrood
+{font-size: 10px;color:#660000;	 left:12px; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;text-decoration:none;} 
+a.speciaalrood:link, a.speciaalrood:visited{
+color: #660000;font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+a.speciaalrood:hover, a.speciaalrood:active{
+color: #000000;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;
+} 
+
+.speciaalrood2
+{font-size: 14px;color:#660000;	 left:12px; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;text-decoration:none;} 
+a.speciaalrood2:link, a.speciaalrood2:visited{
+color: #660000; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+}
+a.speciaalrood2:hover, a.speciaalrood2:active{
+color: #FFFFCC;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;
+} 
+
+.speciaalrood3
+{font-size: 16px;color:#660000;	 left:12px; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;text-decoration:none;} 
+a.speciaalrood3:link, a.speciaalrood3:visited{
+color: #660000; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+}
+a.speciaalrood3:hover, a.speciaalrood3:active{
+color: #FFFFCC; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;text-decoration:none;
+} 
+
+
+a.mainlevel:link, a.mainlevel:visited {
+font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;
+display: block;
+height: 25px !important;
+width: 150px;
+vertical-align: middle;
+font-size: 11px;
+font-weight: bold;
+color: #ffffff;
+text-align: left;
+padding-top: 5px;
+padding-left: 18px;
+text-decoration: none; }
+
+a.mainlevel:hover { background-position: 0px -25px; color: #660000;  font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+
+/* Turn off list bullets */
+ul.mktree  li { list-style: none; } 
+/* Control how "spaced out" the tree is */
+ul.mktree, ul.mktree ul , ul.mktree li { margin-left:0px; padding:0px; }
+/* Provide space for our own "bullet" inside the LI */
+ul.mktree  li           .bullet { padding-left: 15px; }
+/* Show "bullets" in the links, depending on the class of the LI that the link's in */
+ul.mktree  li.liOpen.bullet { cursor: pointer;background: url(plus.gif)  no-repeat; }
+ul.mktree  li.liClosed  .bullet { cursor: pointer;background: url(plus.gif)  left no-repeat; }
+ul.mktree  li.liBullet  .bullet { cursor: default; background: url(plus.gif)  left no-repeat; }
+/* Sublists are visible or not based on class of parent LI */
+ul.mktree  li.liOpen    ul { display: block; }
+ul.mktree  li.liClosed  ul { display: none; }
+/* Format menu items differently depending on what level of the tree they are in */
+ul.mktree  li { font-size: 12px;color:#660000;  font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+ul.mktree  li ul li { font-size: 10px; color:#ffffcc; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif; }
+ul.mktree  li ul li ul li { font-size: 8px; color:#ffffcc;  font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+ul.mktree  li ul li ul li ul li { font-size: 6px; color:#ffffcc;  font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+
+
+
+
+
+

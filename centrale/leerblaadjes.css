@@ -1,0 +1,96 @@
+*{   
+   margin:0;   
+   padding:0;   
+}  
+
+
+body
+	{ 
+	background-color: #090908;
+	background-repeat: repeat-x;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.main {      width: 900px;
+	margin: 0 auto;
+	 top:20px;
+	height: 738px;
+	margin-top: 20px;
+	text-align: left;
+	position: relative;
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;color:#ffffff;
+	}
+
+.backparcours
+	{
+	top:20px;
+	background: url("img/skelet.gif");
+	position: relative;
+	text-align: left;
+	width: 900px;
+	height: 738px;
+            	background-repeat: no-repeat;
+	z-index: 0;
+            	}
+
+.tekst
+	{
+	position:absolute;
+	width:1120px;
+	height: 694px;
+	 top:2px;
+	 left:0 px;
+	margin-top: 2px;
+	margin-left: 2px;
+            	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;color:#660000;
+	text-align: center;
+	overflow: auto;
+	z-index: 1; 
+	}
+
+
+
+.table1
+	{
+	width:500px;
+              	left: 400px;
+	}
+
+
+.titelwit   
+	{
+	padding-left: 0.2cm;
+          	padding-right: 0.2cm;
+      	background-color: #FFFFFF;
+	filter:alpha(opacity=50);
+  	 -moz-opacity:0.5;
+  	 opacity: 0.5;
+       	border-color:#FEFEFA;
+              	font-size: 14px;color:#660000;
+	font-weight: bold;
+           	 }
+
+.letterwit      
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 14px;color:#FCF7F5;
+	}
+
+
+area{
+    sharedAttr: 'attribute';
+}
+
+area.1{
+    background-color: 'color';
+}
+
+area.2{
+    background-color: 'color';
+}
+
+

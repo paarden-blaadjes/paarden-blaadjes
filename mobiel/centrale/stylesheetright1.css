@@ -1,0 +1,88 @@
+*{   
+   margin:0;   
+   padding:0;   
+}  
+
+*:focus {outline: none;}
+
+
+body
+	{ 
+	font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+ 	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.main {      width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: left;
+	}
+
+
+
+#tekstweetjesright
+	{
+	position:absolute;
+	width:98%;
+	height: 100%;
+	padding-left:6px;
+            	 font-family:calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;color:#FFFFCC;
+	text-align:left;  
+	z-index: 1; 
+	}
+
+
+.letter-info
+	{
+            	 font-family:calibri,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;color:#FFFFCC;
+	text-align:left; 
+	}
+
+.letterwit      
+	{	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+             	vertical-align: top;      
+             	font-size: 10px;color:#FFFFCC;
+	padding-left:12px;
+          	padding-right: 12px;
+	}
+
+
+
+
+
+.speciaalwit
+{font-size: 18px; line-height:30px; color:#FFFFCC; text-decoration: none; font-family:Calibri,Verdana, Arial, Helvetica, sans-serif;}
+a.speciaalwit:link, a.speciaalwit:visited{
+color: #FFFFCC;
+}
+a.speciaalwit:hover, a.speciaalwit:active{
+color: #660000;
+} 
+
+.speciaalrood
+{font-size: 16px; line-height:25px; color:#FFFFCC; left:12px; font-family:Calibri,sans-serif,Verdana, Arial, Helvetica, sans-serif;text-decoration:none;} 
+a.speciaalrood2:link, a.speciaalrood2:visited{
+color: #FFFFCC; font-family:Calibri,sans-serif,Verdana, Arial, Helvetica, sans-serif;
+}
+a.speciaalrood2:hover, a.speciaalrood2:active{
+color: #660000; font-family:Calibri,sans-serif,Verdana, Arial, Helvetica, sans-serif;none;
+}
+
+
+.speciaalrood2
+{font-size: 16px; line-height:25px; color:#FFFFCC; left:12px; font-family:Calibri,sans-serif,Verdana, Arial, Helvetica, sans-serif;text-decoration:none;} 
+a.speciaalrood2:link, a.speciaalrood2:visited{
+color: #FFFFCC; font-family:Calibri,sans-serif,Verdana, Arial, Helvetica, sans-serif;
+}
+a.speciaalrood2:hover, a.speciaalrood2:active{
+color: #660000; font-family:Calibri,sans-serif,Verdana, Arial, Helvetica, sans-serif;none;
+} 
+
+
