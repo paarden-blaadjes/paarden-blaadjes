@@ -1,6 +1,4 @@
 var str='<div class="dropList" style="position: relative;">' +
-	'<a href="http://www.hippomundo.com" style="position: absolute; right: -1px;top: -70px;z-index: 9999;display: block;"><img src="img/hippomundo_logo.png"> </a>' +
-	'<a href="http://www.hippomundo.com" style="position: absolute; left: -1px;top: -70px;z-index: 9999;display: block;"><img src="img/hippomundo_logo.png"> </a>' +
 	'';
 str+='<nav id="nav" role="navigation">';
 	str+='<ul>';
