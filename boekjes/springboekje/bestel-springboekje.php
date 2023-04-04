@@ -14,7 +14,7 @@
 
 <!-- redirect -->
 <script type="text/javascript">
-if (screen.width < 640px) {
+if (screen.width < 0px) {
  var ref = document.referrer;
  var urls = new Array("http://paarden-blaadjes.github.io","mobiel");
  var n = ref.match(urls[0]);
