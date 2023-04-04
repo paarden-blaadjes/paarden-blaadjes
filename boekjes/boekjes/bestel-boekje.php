@@ -10,12 +10,141 @@
 	<link rel="stylesheet" type="text/css" href="../../menus/horizontaal/droplist-flyout.css"  >
 	<meta name="description" content="Springoefeningen in zakformaat bestellen.">
 	<meta name="keywords"content="springoefeningen in zakformaat">
-    
+	<link rel="alternate" media="only screen and (max-width: 640px)"href="mobiel/boekjes/boekjes/bestel-springboekje.php" >
+
+<!-- redirect -->
+<script type="text/javascript">
+(function(a,b){if(/android.+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|e\-|e\/|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(di|rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|xda(\-|2|g)|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))b
+})(navigator.userAgent||navigator.vendor||window.opera,'mobiel/boekjes/boekjes/bestel-springboekje.php');
+</script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
+    <script>
+ $(document).ready(function () {
+    var form = $('.bestelformulier'),
+        elements = form.find('[data-price], [type="radio"], [type="checkbox"], select'),
+        totalEl = $('.totaalprijs'),
+        totaalSub = $('.subtotaalprijs'),
+        totaaalSuub = $('.suubtotaalprijs');
+
+       
+    //function to calculate total
+    var calculateTotal = function () {
+        var total = 0;
+        var totaal = 0;
+        var totaaal = 0;
+ 
+
+
+
+        $.each(elements, function () {
+            var field = $(this),
+                newVal,newSubval,newPorto;
+
+            // switch type
+            switch (field.prop('type')) {
+                case 'text':
+                    newVal = parseFloat(field.val() || 0) * field.data('price');
+                    newVal = newVal.toFixed(2);
+                    field.closest('td').next().find('span').text(newVal);
+                    newSubVal = parseFloat(field.val() || 0) * field.data('price');
+                    newSubVal = newSubVal.toFixed(2);
+                    newSuubVal = parseFloat(field.val() || 0) * field.data('price');
+                    newSuubVal = newSuubVal.toFixed(2);
+                    field.closest('td').next().find('span').text(newSubVal);
+                    break;
+
+
+                case 'hidden':
+var a=0;
+var x=0;
+var y=0;
+var z=0;
+var r=0;
+var x = document.getElementById("Aantal1").value | 0;
+var y = document.getElementById("Aantal2").value | 0; 
+var z = document.getElementById("Aantal3").value | 0;
+var r=x+y+z;
+if  ( r > 1 ) {
+a=r;}
+document.getElementById('korting').value = a;
+                    newSuubVal = parseFloat(field.val() || 0) * field.data('price');
+                    newSuubVal = newSuubVal.toFixed(2);
+                    newVal = parseFloat(field.val() || 0) * field.data('price');
+                    newVal = newVal.toFixed(2);
+                    field.closest('td').next().find('span').text(newVal);
+                    break;
+
+
+                case 'radio':
+                    newVal = this.checked ? field.val() : 0;
+                    var p = this.checked ? field.val() : 0;
+var n=0;
+var x = document.getElementById("Aantal1").value | 0;
+var y = document.getElementById("Aantal2").value | 0; 
+var z = document.getElementById("Aantal3").value | 0;
+var r=x+y+z;
+if (p=="Nederland" && r<7 ) {n=4.50;}
+if (p=="Nederland" && r==1 ) {n=3.50;}
+if (p=="Nederland"  && r>6) {n=7.00;}
+if (p=="Buitenland" && r==1) {n=4.50;}
+if (p=="Buitenland" && r==2) {n=8.00;}
+if (p=="Buitenland" && r==3) {n=8.00;}
+if (p=="Buitenland" && r==4) {n=9.00;}
+if (p=="Buitenland" && r>4) {n=9.00;}
+if (r==0 ) {n=0.00;}
+                    newVal = n;
+                    newVal = newVal.toFixed(2);
+                    field.closest('td').next().find('span').text(newVal);
+                    break;
+            }
+
+
+
+            newSubVal = parseFloat(newSubVal);
+            totaal += newSubVal;
+
+            newSuubVal = parseFloat(newSuubVal);
+            totaaal += newSuubVal;
+
+            newVal = parseFloat(newVal);
+            total += newVal;
+
+
+        });
+
+        totaalSub.text(totaal.toFixed(2));
+        totaaalSuub.text(totaaal.toFixed(2));
+        totalEl.text(total.toFixed(2));
+
+
+    };
+
+    // bind events
+    elements.on('change keyup', calculateTotal);
     
+
+ 
+    elements.filter('[data-price]').on('keypress', function (ev) {
+        var key = ev.keyCode || ev.which;
+
+        if (key > 31 && (key < 48 || key > 57)) {
+            ev.preventDefault();
+        }
+    });
+
+    
+});
+    </script>
+
 <div id="main">
-	
+	<div id="vergroten" align="center" >
+Website vergroten/verkleinen: cltr-knop + scrollen
+	</div>
 
   	<div id="achter-main_container">
 		<div id="main_container_begrippen">
@@ -23,7 +152,7 @@
 			<div id="header_container">
 <div id="menubalk">
 
-		
+		<script type="text/javascript" src="../../menus/horizontaal/algemeen-plus-horizontaal.js"></script>
 </div> <!-- sluit menubalk -->
 			</div> <!-- sluit header_container -->
 
@@ -47,7 +176,7 @@
 	<table border="3">
 	<tr>
 	<td width="300" align="center" rowspan="2">
-<img src="springboekje.png" width="300" border="0"><br>
+<img src='springboekje.png' width="300" border="0"><br>
 	</td>
 	<td class="letterwit" align="center">
 <br>
@@ -80,7 +209,7 @@ uitgave: www.paarden-blaadjes.nl<br>
 	<tr>
 	<td width="300" class="letterwit" align="center">
 <br>
-<img src="springoefeningen-in-zakformaat-2.jpg" width="300" border="0">
+<img src='springoefeningen-in-zakformaat-2.jpg' width="300" border="0">
 	</td>
 	<td class="letterwit"  align="left">
 <br>
@@ -115,7 +244,7 @@ De inhoud bestaat uit: <br>
 	<table border="3">
 	<tr>
 	<td width="330" align="center" rowspan="2">
-<img src="dressuurboekje.png" width="300" border="0"><br>
+<img src='dressuurboekje.png' width="300" border="0"><br>
 <br>
 	</td>
 	<td class="letterwit" align="center">
@@ -150,7 +279,7 @@ uitgave: www.paarden-blaadjes.nl<br>
 	<tr>
 	<td width="330" class="letterwit" align="center">
 <br>
-<img src="dressuuroefeningen-in-zakformaat-2.jpg" width="300" border="0"><br>
+<img src='dressuuroefeningen-in-zakformaat-2.jpg' width="300" border="0"><br>
 <br>
 	</td>
 	<td class="letterwit"  align="left">
@@ -183,7 +312,7 @@ De inhoud bestaat uit:<br>
 	<table border="3">
 	<tr>
 	<td width="330" align="center" rowspan="2">
-<img src="hulpenboekje.png" width="300" border="0"><br>
+<img src='hulpenboekje.png' width="300" border="0"><br>
 	</td>
 	<td class="letterwit" align="center">
 <br>
@@ -217,7 +346,7 @@ uitgave: www.paarden-blaadjes.nl<br>
 	<tr>
 	<td width="330" class="letterwit" align="center">
 <br>
-<img src="hulpendressuur-in-zakformaat-2.jpg" width="300" border="0"><br>
+<img src='hulpendressuur-in-zakformaat-2.jpg' width="300" border="0"><br>
 <br>
 	</td>
 	<td class="letterwit"  align="left">
@@ -627,11 +756,11 @@ _______________
 
 <div id="footer">
 	<div id="tekstreclame">
-		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 	</div>
 	<div id="infomenu">
-		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 	</div>
 	<div id="webdesign">
@@ -640,7 +769,6 @@ Webdesign: ELJO
 
 </div>
 </div> <!-- sluit footer_container -->
-
 
 
 

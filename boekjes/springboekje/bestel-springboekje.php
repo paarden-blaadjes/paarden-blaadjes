@@ -9,12 +9,45 @@
 	<meta name="keywords"content="springoefeningen in zakformaat">
 	<link rel="stylesheet" type="text/css" href="../../centrale/stylesheet1-lijsten.css">
 	<link rel="stylesheet" type="text/css" href="../../menus/horizontaal/droplist-flyout.css"  >
+<link rel="alternate" media="only screen and (max-width: 640px)"
+      href="http://www.paarden-blaadjes/mobiel/boekjes/springboekje/bestel-springboekje.php" >
+
+<!-- redirect -->
+<script type="text/javascript">
+if (screen.width < 640px) {
+ var ref = document.referrer;
+ var urls = new Array("http://www.paarden-blaadjes.nl","mobiel");
+ var n = ref.match(urls[0]);
+ var m = ref.match(urls[1]);
+ if ((m!==null) || (n!==null)) {
+ stop;
+ }
+ else if (ref=='') {
+ var r = confirm("Small Display is Detected.\nClick \"OK\" for MOBILE SITE.");
+ if (r==true) {
+  window.location = "http://www.paarden-blaadjes/mobiel/boekjes/springboekje/bestel-springboekje.php";
+  }
+  else {
+  stop ;
+ }
+ }
+ else
+ {
+ window.location = "http://www.paarden-blaadjes/mobiel/boekjes/springboekje/bestel-springboekje.php";
+ }
+}
+</script>
+
+
+
 
 </head>
 <body>
 
 <div id="main">
-	
+	<div id="vergroten" align="center" >
+Website vergroten/verkleinen: cltr-knop + scrollen
+	</div>
 
   	<div id="achter-main_container">
 		<div id="main_container_begrippen">
@@ -22,7 +55,7 @@
 			<div id="header_container">
 <div id="menubalk">
 
-		
+		<script type="text/javascript" src="../../menus/horizontaal/algemeen-plus-horizontaal.js"></script>
 </div> <!-- sluit menubalk -->
 			</div> <!-- sluit header_container -->
 
@@ -46,7 +79,7 @@
 	<table>
 	<tr>
 	<td width="330" align="center" rowspan="2">
-<img src="springboekje.png" width="410" border="0"><br>
+<img src='springboekje.png' width="410" border="0"><br>
 	</td>
 	<td align="center">
 <br>
@@ -90,7 +123,7 @@ Duitsland<br>
 	<tr>
 	<td width="330" align="center">
 <br>
-<img src="springoefeningen-in-zakformaat-2.jpg" width="350" border="0">
+<img src='springoefeningen-in-zakformaat-2.jpg' width="350" border="0">
 	</td>
 	<td class="letterwit"  align="left">
 <br>
@@ -239,11 +272,11 @@ Bijzonder handig zijn de flappen die je kunt uitvouwen waarop de meest gebruikte
 
 <div id="footer">
 	<div id="tekstreclame">
-		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 	</div>
 	<div id="infomenu">
-		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 	</div>
 	<div id="webdesign">
@@ -252,7 +285,6 @@ Webdesign: ELJO
 
 
 </div> <!-- sluit footer_container -->
-
 
 
 

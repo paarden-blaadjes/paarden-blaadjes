@@ -1,286 +1,326 @@
 <!DOCTYPE html>
 <html lang="nl" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-   <title>Menu dressuur</title>
-   <link rel="stylesheet" type="text/css" href="../../centrale/stylesheet-menus.css">
-   <link rel="stylesheet" type="text/css" href="../../menus/horizontaal/droplist-flyout.css">
-   <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+	<title>Menu dressuur</title>
+	<link rel="stylesheet" type="text/css" href="../../centrale/stylesheet-menus.css">
+	<link rel="stylesheet" type="text/css" href="../../menus/horizontaal/droplist-flyout.css"  >
+  	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+       <script type="text/javascript" src="../../centrale/uitklappen-tekst.js"></script>
 
+
+<!-- uitklappen -->
+<script type=�text/javascript�>
+jQuery(document).ready(function() {
+jQuery(�.content�).hide();
+//toggle the componenet with class msg_body
+jQuery(�.heading�).click(function()
+{
+jQuery(this).next(�.content�).slideToggle(500);
+});
+});
+</script>
+<!-- end uitklappen -->
+
+
+<script type="text/javascript">
+if (screen.width < 640) {
+ var ref = document.referrer;
+ var urls = new Array("http://www.paarden-blaadjes.nl","mobiel");
+ var n = ref.match(urls[0]);
+ var m = ref.match(urls[1]);
+ if ((m!==null) || (n!==null)) {
+ stop;
+ }
+ else if (ref=='') {
+ var r = confirm("Small Display is Detected.\nClick \"OK\" for MOBILE SITE.");
+ if (r==true) {
+  window.location = "mobiel/diversen/namenlijst-onkruiden.html";
+  }
+  else {
+  stop ;
+ }
+ }
+ else
+ {
+ window.location = "mobiel/diversen/namenlijst-onkruiden.html";
+ }
+}
+</script>
+
+
+
+</head>
 <body>
 
-   <div id="main">
+<div id="main">
+	<div id="vergroten" align="center" >
+Website vergroten/verkleinen: cltr-knop + scrollen
+	</div>
+
+  	<div id="achter-main_container">
+		<div id="main_container_begrippen">
 
 
-      <div id="achter-main_container">
-         <div id="main_container_begrippen">
+			<div id="header_container">
+<div id="menubalk">
 
-
-            <div id="header_container">
-               <div id="menubalk">
-
-
-               </div> <!-- sluit menubalk -->
-            </div> <!-- sluit header_container -->
-
-
-
-
-
-            <div id="content_container_begrippen">
-               <br>
-               <div align="center">
-                  <h2 id="top"></h2>
-                  <br>
-                  <table width="100%">
-                     <tr>
-                        <td>
-                           <div class="menuvaka" onclick="location.href='../../index.html';">
-                              <span>HOME</span>
-                           </div>
-
-                           <div class="menuvakb" onclick="location.href='../../menus/hoofdmenu.html';">
-                              <span>MENU</span>
-                           </div>
-                        </td>
-                     </tr>
-                  </table>
-                  <br>
-                  <br>
-
-                  <div class="letterwitcenter">
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/dressuurpaard.html';">
-                        <span>dressuurpaard</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/basis.html';">
-                        <span>basis dressuur</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/rijbaanfiguren.html';">
-                        <span>rijbaanfiguren</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/rijbaanfiguren-rijden.html';">
-                        <span>rijbaanfig.rijden</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../algemeen/op-afstijgen-paard.html';">
-                        <span>op- afstijgen</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../paard/gangen.html';">
-                        <span>GANGEN algemeen</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/gangen-stap.html';">
-                        <span>GANGEN-stap</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/gangen-draf.html';">
-                        <span>GANGEN-draf</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/gangen-galop.html';">
-                        <span>GANGEN-galop</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/zithouding.html';">
-                        <span>zithouding</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/hulpen.html';">
-                        <span>hulpen</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/overgangen.html';">
-                        <span>overgangen</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/stelling-buiging.html';">
-                        <span>stelling/buiging</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/rechtrichten.html';">
-                        <span>rechtrichten</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/voorwaarts-neerwaarts.html';">
-                        <span>voorw.-neerwaarts</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/aanleuning.html';">
-                        <span>aan de teugel</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/zijgangen.html';">
-                        <span>zijgangen</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/dubbel-bit.html';">
-                        <span>dubbel-bit</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/galopchangementen.html';">
-                        <span>galopchangementen</span>
-                     </div>
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/cavaletti-oefeningen-dressuur-algemeen.html';">
-                        <span>cavaletti-algemeen</span>
-                     </div>
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/cavaletti-oefeningen-dressuur.html';">
-                        <span> cavaletti-1</span>
-                     </div>
-
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/cavaletti-oefeningen-dressuur-2.html';">
-                        <span>cavaletti-2</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/dressuuroefeningen-1.html';">
-                        <span>oefeningen</span>
-                     </div>
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/problemen-bokken-steigeren-wegrennen.html';">
-                        <span>problemen-bokken</span>
-                     </div>
-
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/problemen-bokken-steigeren-wegrennen.html';">
-                        <span>probl.-steigeren</span>
-                     </div>
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/problemen-bokken-steigeren-wegrennen.html';">
-                        <span>problemen-rennen</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/problemen-loperig-paard.html';">
-                        <span>problemen-loperig</span>
-                     </div>
-
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/problemen-hoofdschudden.html';">
-                        <span>pr.-hoofdschudden</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/problemen-kleven.html';">
-                        <span> problemen-kleven</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/problemen-staken.html';">
-                        <span>problemen-staken</span>
-                     </div>
-
-                     <div class="linkvakjesub"
-                        onclick="location.href='../../dressuur/problemen-flegmatiek-paard.html';">
-                        <span>probl.-flegmatiek</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/problemen-ondeugend-paard.html';">
-                        <span> probl.-slim paard</span>
-                     </div>
-                     <div class="linkvakjesub" onclick="location.href='../../dressuur/eerste-wedstrijd.html';">
-                        <span> eerste wedstrijd</span>
-                     </div>
-                  </div>
-                  <table class="tableweetjes">
-                     <tr>
-                        <td>
-                           <br>
-                           <br>
-                        </td>
-                     </tr>
-                  </table>
-
-                  <table class="tableweetjes">
-                     <tr>
-                        <td>
-                           <br>
-                           <br>
-                        </td>
-                     </tr>
-                  </table>
+		<script type="text/javascript" src="../../menus/horizontaal/algemeen-plus-horizontaal.js"></script>
+</div> <!-- sluit menubalk -->
+			</div> <!-- sluit header_container -->
 
 
 
 
-                  <table class="tableweetjes" border="1">
-                     <tr>
-                        <td class="titelwit" colspan="2">
-                           <b>Dressuuroefeningen in zakformaat</b>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <img alt="dressuurboekje" id="dressuurboekje" src="../../boekjes/boekjes/dressuurboekje.png"
-                              width="200" border="0">
-                        </td>
-                        <td class="letterwit">
-                           <br>
-                           Wil je verschillende dressuuroefeningen in een handig boekje? <br>
-                           Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
-                           <br>
-                           <a class="speciaalwittekst" href="../../boekjes/boekjes/bestel-boekje.php#dressuurboekje"
-                              target="_new">Lees meer ............</a><br>
-                           <br>
-                        </td>
-                     </tr>
-                     <td class="titelwit" colspan="2">
-                        <b>Hulpen dressuur in zakformaat</b>
-                     </td>
-                     <tr>
-                        <td>
-                           <img alt="dhulpenboekje" id="hulpenboekje" src="../../boekjes/boekjes/hulpenboekje.png"
-                              width="200" border="0">
-                        </td>
-                        <td class="letterwit">
-                           <br>
-                           Tekeningen in kleur met schematische weergave van de hulpen met korte beschrijvingen. <br>
-                           Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
-                           <br>
-                           <a class="speciaalwittekst" href="../../boekjes/boekjes/bestel-boekje.php#hulpenboekje"
-                              target="_new">Lees meer .....</a><br>
-                           <br>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td class="titelwit" colspan="2">
-                           <b>Springoefeningen in zakformaat</b>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <img alt="springboekje" id="springboekje" src="../../boekjes/boekjes/springboekje.png"
-                              width="200" border="0">
-                        </td>
-                        <td class="letterwit">
-                           <br>
-                           Wil je verschillende springoefeningen en enkele parcoursschetsen in een handig boekje? <br>
-                           Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
-                           <br>
-                           <a class="speciaalwittekst" href="../../boekjes/boekjes/bestel-boekje.php#springboekje"
-                              target="_new">Lees meer ............</a><br>
-                           <br>
-                        </td>
-                     </tr>
-                  </table>
-                  <br>
-                  <br>
 
-               </div> <!-- sluit content_container_begrippen -->
-            </div> <!-- sluit main_container_begrippen -->
-         </div> <!-- sluit achter-main_container -->
-      </div> <!-- sluit main -->
-
-      <div id="footer_container">
-
-
-         <div id="footer">
-            <div id="tekstreclame">
-               <iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer"
-                  src="../../centrale/reclame-footer.html" frameborder="0" allowtransparency="true" scrolling="no">
-               </iframe>
-            </div>
-            <div id="infomenu">
-               <iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"
-                  frameborder="0" allowtransparency="true" scrolling="no">
-               </iframe>
-            </div>
-            <div id="webdesign">
-               Webdesign: ELJO
-            </div>
-         </div>
-
-      </div> <!-- sluit footer_container -->
+			<div id="content_container_begrippen">				
+<br>
+				<div align="center">
+<h2 id="top"></h2>
+<br>
+<table width="100%">
+<tr>
+<td>
+   <div  class="menuvaka" onclick="location.href='../../index.html';">
+<span>HOME</span>
    </div>
-</body>
 
+   <div   class="menuvakb" onclick="location.href='../../menus/hoofdmenu.html';">
+<span>MENU</span>
+   </div>
+</td>
+</tr>
+</table>
+<br>
+<br>
+
+		<div class="letterwitcenter">
+<div  class="linkvakjesub"  onclick="location.href='../../dressuur/dressuurpaard.html';" >
+<span>dressuurpaard</span>
+</div>
+<div  class="linkvakjesub"  onclick="location.href='../../dressuur/basis.html';">
+<span>basis dressuur</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/rijbaanfiguren.html';">
+<span>rijbaanfiguren</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/rijbaanfiguren-rijden.html';">
+<span>rijbaanfig.rijden</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../algemeen/op-afstijgen-paard.html';">
+<span>op- afstijgen</span>
+</div>
+<div class="linkvakjesub" onclick="location.href='../../paard/gangen.html';">
+<span>GANGEN algemeen</span>
+</div>
+
+<div class="linkvakjesub" onclick="location.href='../../dressuur/gangen-stap.html';">
+<span>GANGEN-stap</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/gangen-draf.html';">
+<span>GANGEN-draf</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/gangen-galop.html';">
+<span>GANGEN-galop</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/zithouding.html';">
+<span>zithouding</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/hulpen.html';">
+<span>hulpen</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/overgangen.html';">
+<span>overgangen</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/stelling-buiging.html';">
+<span>stelling/buiging</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/rechtrichten.html';">
+<span>rechtrichten</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/voorwaarts-neerwaarts.html';">
+<span>voorw.-neerwaarts</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/aanleuning.html';">
+<span>aan de teugel</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/zijgangen.html';">
+<span>zijgangen</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/dubbel-bit.html';">
+<span>dubbel-bit</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/galopchangementen.html';">
+<span>galopchangementen</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/cavaletti-oefeningen-dressuur-algemeen.html';">
+<span>cavaletti-algemeen</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/cavaletti-oefeningen-dressuur.html';">
+<span> cavaletti-1</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/cavaletti-oefeningen-dressuur-2.html';">
+<span>cavaletti-2</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/dressuuroefeningen-1.html';">
+<span>oefeningen</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-bokken-steigeren-wegrennen.html';">
+<span>problemen-bokken</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-bokken-steigeren-wegrennen.html';">
+<span>probl.-steigeren</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-bokken-steigeren-wegrennen.html';">
+<span>problemen-rennen</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-loperig-paard.html';">
+<span>problemen-loperig</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-hoofdschudden.html';">
+<span>pr.-hoofdschudden</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-kleven.html';">
+<span> problemen-kleven</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-staken.html';">
+<span>problemen-staken</span>
+</div>
+
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-flegmatiek-paard.html';">
+<span>probl.-flegmatiek</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/problemen-ondeugend-paard.html';">
+<span> probl.-slim paard</span>
+</div>
+<div class="linkvakjesub"  onclick="location.href='../../dressuur/eerste-wedstrijd.html';">
+<span> eerste wedstrijd</span>
+</div>
+</div>
+<table class="tableweetjes">
+<tr>
+<td>
+<br>
+<br>
+</td>
+</tr>
+</table>
+
+<table class="tableweetjes">
+<tr>
+<td>
+<br>
+<br>
+</td>
+</tr>
+</table>
+
+
+
+
+   <table class="tableweetjes"  border="1">
+   <tr>
+   <td  class="titelwit" colspan="2">
+<b>Dressuuroefeningen in zakformaat</b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<img alt="dressuurboekje" id="dressuurboekje" src='../../boekjes/boekjes/dressuurboekje.png' width="200" border="0">
+   </td>
+   <td class="letterwit">
+<br>
+Wil je verschillende dressuuroefeningen in een handig boekje? <br>
+Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
+<br>
+<a class="speciaalwittekst" href='../../boekjes/boekjes/bestel-boekje.php#dressuurboekje' target='_new'>Lees meer ............</a><br>
+<br>
+   </td>
+   </tr>
+   <td  class="titelwit" colspan="2">
+<b>Hulpen dressuur in zakformaat</b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<img alt="dhulpenboekje" id="hulpenboekje" src='../../boekjes/boekjes/hulpenboekje.png' width="200" border="0">
+   </td>
+   <td class="letterwit">
+<br>
+Tekeningen in kleur met schematische weergave van de hulpen met korte beschrijvingen. <br>
+Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
+<br>
+<a class="speciaalwittekst" href='../../boekjes/boekjes/bestel-boekje.php#hulpenboekje' target='_new'>Lees meer .....</a><br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td  class="titelwit" colspan="2">
+<b>Springoefeningen in zakformaat</b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<img alt="springboekje" id="springboekje" src='../../boekjes/boekjes/springboekje.png' width="200" border="0">
+   </td>
+   <td class="letterwit">
+<br>
+Wil je verschillende springoefeningen en enkele parcoursschetsen in een handig boekje? <br>
+Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
+<br>
+<a class="speciaalwittekst" href='../../boekjes/boekjes/bestel-boekje.php#springboekje' target='_new'>Lees meer ............</a><br>
+<br>
+   </td>
+   </tr>
+   </table>
+<br> 
+<br>
+		
+</div> <!-- sluit content_container_begrippen -->
+</div> <!-- sluit main_container_begrippen -->
+</div> <!-- sluit achter-main_container -->
+</div> <!-- sluit main -->
+
+<div id="footer_container">
+
+
+<div id="footer">
+	<div id="tekstreclame">
+		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling=no>
+		</iframe>
+	</div>
+	<div id="infomenu">
+		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling=no>
+		</iframe>
+	</div>
+	<div id="webdesign">
+Webdesign: ELJO
+	</div>
+</div>
+
+</div> <!-- sluit footer_container -->
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+</body>
 </html>

@@ -9,23 +9,33 @@
 	<meta name="keywords"content="boekjes in zakformaat">
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link rel="stylesheet" type="text/css" href="../../centrale/stylesheet-small.css">
-       
+       <script type="text/javascript" src="../../centrale/uitklappen-tekst.js"></script>
+
+<!-- uitklappen -->
+<script type=�text/javascript�>
+jQuery(document).ready(function() {
+jQuery(�.content�).hide();
+//toggle the componenet with class msg_body
+jQuery(�.heading�).click(function()
+{
+jQuery(this).next(�.content�).slideToggle(500);
+});
+});
+</script>
+<!-- end uitklappen -->
 
 
 
 
 
-
-
-
-
-
+<script type="text/javascript" src="../../../centrale/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../../../centrale/scroll-top.js"></script>
 
 </head>
 <body>
 
 			<div class="header">
-<img src="../../img/small-logo.png" border="0"><br>
+<img src='../../img/small-logo.png' border="0"><br>
 			</div>
 			<div id="content_container">
 				<div id="tekstweetjes">
@@ -45,7 +55,7 @@
 <tr>
 <td>
 <br>
-<select name="forma" id="forma" class="forma"  value="home" onchange="location = this.options[this.selectedIndex].value; ">
+<select name="forma" id="forma" class="forma"  value='home' onchange="location = this.options[this.selectedIndex].value; ">
 <option selected disabled>Categorie</option>
  <option value="../index.html">Home</option>
  <option value="../dressuur/menudressuur.html">dressuur</option>
@@ -79,7 +89,7 @@
 	<table class="tableweetjes" border="3">
 	<tr>
 	<td  align="center">
-<img src="../../../boekjes/boekjes/springboekje.png" width="250" border="0"><br>
+<img src='../../../boekjes/boekjes/springboekje.png' width="250" border="0"><br>
 	</td>
 	</tr>
 	<tr>
@@ -116,7 +126,7 @@ uitgave: www.paarden-blaadjes.nl<br>
 	<tr>
 	<td  align="center">
 <br>
-<img src="../../../boekjes/boekjes/springoefeningen-in-zakformaat-2.jpg" width="250" border="0">
+<img src='../../../boekjes/boekjes/springoefeningen-in-zakformaat-2.jpg' width="250" border="0">
 	</td>
 	</tr>
 	<tr>
@@ -153,7 +163,7 @@ De inhoud bestaat uit: <br>
 	<table class="tableweetjes" border="3">
 	<tr>
 	<td  align="center">
-<img src="../../../boekjes/boekjes/dressuurboekje.png" width="250" border="0"><br>
+<img src='../../../boekjes/boekjes/dressuurboekje.png' width="250" border="0"><br>
 	</td>
 	</tr>
 	<tr>
@@ -190,7 +200,7 @@ uitgave: www.paarden-blaadjes.nl<br>
 	<tr>
 	<td  align="center">
 <br>
-<img src="../../../boekjes/boekjes/dressuuroefeningen-in-zakformaat-2.jpg" width="250" border="0">
+<img src='../../../boekjes/boekjes/dressuuroefeningen-in-zakformaat-2.jpg' width="250" border="0">
 	</td>
 	</tr>
 	<tr>
@@ -224,7 +234,7 @@ De inhoud bestaat uit:<br>
 	<table class="tableweetjes" border="3">
 	<tr>
 	<td  align="center">
-<img src="../../../boekjes/boekjes/hulpenboekje.png" width="250" border="0"><br>
+<img src='../../../boekjes/boekjes/hulpenboekje.png' width="250" border="0"><br>
 	</td>
 	</tr>
 	<tr>
@@ -261,7 +271,7 @@ uitgave: www.paarden-blaadjes.nl<br>
 	<tr>
 	<td  align="center">
 <br>
-<img src="../../../boekjes/boekjes/hulpendressuur-in-zakformaat-2.jpg" width="250" border="0">
+<img src='../../../boekjes/boekjes/hulpendressuur-in-zakformaat-2.jpg' width="250" border="0">
 	</td>
 	</tr>
 	<tr>
@@ -580,7 +590,7 @@ kosten
 <div id="footer_container">
 	<div id="footer">
 		<div id="infomenu">
-		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 		</div>  <!-- infomenu -->
 		<div id="webdesign">

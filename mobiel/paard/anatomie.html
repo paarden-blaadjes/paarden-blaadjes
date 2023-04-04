@@ -1,1455 +1,1370 @@
 <!DOCTYPE html>
 <html lang="nl" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-   <title>Anatomie van het paard, basis</title>
+	<title>Anatomie van het paard, basis</title>
 
-   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="apple-touch-icon" sizes="76x76" href="../img-apple-touch-icon-precomposed.png">
-   <link rel="stylesheet" type="text/css" href="../centrale/stylesheet-small.css">
-
-   <meta name="description"
-      content="De basis van de anatomie van een paard. Skelet, spieren, hoef, maagdarmstelsel, bloedsomloop en het gebit. Een verwijzing naar uitgebrijdere informatie over deze onderdelen is op deze pagina te vinden.">
-   <meta name="keywords" content="anatomie paard">
-   <link rel="canonical" tag="paard/anatomie.html">
-
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="76x76" href="../img-apple-touch-icon-precomposed.png">
+	<link rel="stylesheet" type="text/css" href="../centrale/stylesheet-small.css">
+        <script type="text/javascript" src="../centrale/uitklappen-tekst.js"></script>
+	<meta name="description" content="De basis van de anatomie van een paard. Skelet, spieren, hoef, maagdarmstelsel, bloedsomloop en het gebit. Een verwijzing naar uitgebrijdere informatie over deze onderdelen is op deze pagina te vinden.">
+	<meta name="keywords" content="anatomie paard">
+        <link rel="canonical" tag="paard/anatomie.html">
 
 
 
+<!-- uitklappen -->
+<script type=�text/javascript�>
+jQuery(document).ready(function() {
+jQuery(�.content�).hide();
+//toggle the componenet with class msg_body
+jQuery(�.heading�).click(function()
+{
+jQuery(this).next(�.content�).slideToggle(500);
+});
+});
+</script>
+<!-- end uitklappen -->
 
 
 
 </head>
-
 <body>
 
-   <div class="header">
-      <img src=".. /img/small-logo.png" border="0"><br>
+			<div class="header">
+<img src='../img/small-logo.png' border="0"><br>
+			</div>
+			<div id="content_container">
+				<div id="tekstweetjes">
+
+<table width="100%">
+<tr>
+<td>
+   <div  class="menuvaka" onclick="location.href='../index.html';">
+<span>HOME</span>
    </div>
-   <div id="content_container">
-      <div id="tekstweetjes">
 
-         <table width="100%">
-            <tr>
-               <td>
-                  <div class="menuvaka" onclick="location.href='../index.html';">
-                     <span>HOME</span>
-                  </div>
-
-                  <div class="menuvakb" onclick="location.href='../menusmobiel/hoofdmenu.html';">
-                     <span>MENU</span>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <br>
-                  <select name="forma" id="forma" class="forma" value="home"
-                     onchange="location = this.options[this.selectedIndex].value; ">
-                     <option selected disabled>Categorie</option>
-                     <option value="../index.html">Home</option>
-                     <option value="../dressuur/menudressuur.html">dressuur</option>
-                     <option value="../springen/menuspringen.html">springen</option>
-                     <option value="../paard/menupaard.html">het paard</option>
-                     <option value="../verzorging/menuverzorging.html">verzorging</option>
-                     <option value="../ziekten/menuziekten.html">ziekten</option>
-                     <option value="../uitrusting/uitrustingmenu.html">uitrusting</option>
-                     <option value="../vervoer/menuvervoer.html">vervoer</option>
-                     <option value="../accomodatie/menuaccomodatie.html">accomodatie</option>
-                     <option value="../studie/menustudie.html">studie</option>
-                  </select>
+   <div   class="menuvakb" onclick="location.href='../menusmobiel/hoofdmenu.html';">
+<span>MENU</span>
+   </div>
+</td>
+</tr>
+<tr>
+<td>
+<br>
+<select name="forma" id="forma" class="forma"  value='home' onchange="location = this.options[this.selectedIndex].value; ">
+<option selected disabled>Categorie</option>
+ <option value="../index.html">Home</option>
+ <option value="../dressuur/menudressuur.html">dressuur</option>
+ <option value="../springen/menuspringen.html">springen</option>
+ <option value="../paard/menupaard.html">het paard</option>
+ <option value="../verzorging/menuverzorging.html">verzorging</option>
+ <option value="../ziekten/menuziekten.html">ziekten</option>
+ <option value="../uitrusting/uitrustingmenu.html">uitrusting</option>
+ <option value="../vervoer/menuvervoer.html">vervoer</option>
+ <option value="../accomodatie/menuaccomodatie.html">accomodatie</option>
+ <option value="../studie/menustudie.html">studie</option>
+</select>
 
 
 
-                  <select name="formb" id="formb" class="formb"
-                     onchange="location = this.options[this.selectedIndex].value;">
-                     <option selected selection disabled>Het paard</option>
-                     <option value="gangen.html">gangen</option>
-                     <option value="exterieur.html">exterieur</option>
-                     <option value="gezondheid.html">gezondheid</option>
-                     <option value="gewicht.html">gewicht</option>
-                     <option value="beenstanden.html">beenstanden</option>
-                     <option selection disabled>Anatomie</option>
-                     <option value="anatomie.html">&nbsp;&nbsp;&nbsp;&nbsp;algemeen</option>
-                     <option value="skelet.html">&nbsp;&nbsp;&nbsp;&nbsp;skelet</option>
-                     <option value="spieren.html">&nbsp;&nbsp;&nbsp;&nbsp;spieren/pezen</option>
-                     <option value="hoeven.html">&nbsp;&nbsp;&nbsp;&nbsp;de hoef</option>
-                     <option value="gebit.html">&nbsp;&nbsp;&nbsp;&nbsp;gebit</option>
-                     <option value="spijsverteringsstelsel.html">&nbsp;&nbsp;&nbsp;&nbsp;spijsvertering</option>
-                     <option value="bloedsomloop.html">&nbsp;&nbsp;&nbsp;&nbsp;bloedsomloop</option>
-                     <option value="kreupelheidsonderzoek.html">kreupelheidsonderzoek</option>
-                  </select>
+<select name="formb" id="formb" class="formb" onchange="location = this.options[this.selectedIndex].value;">
+<option selected selection disabled>Het paard</option>
+ <option value="gangen.html">gangen</option>
+ <option value="exterieur.html">exterieur</option>
+ <option value="gezondheid.html">gezondheid</option>
+ <option value="gewicht.html">gewicht</option> 
+ <option value="beenstanden.html">beenstanden</option>
+<option selection disabled>Anatomie</option>
+ <option value="anatomie.html">&nbsp;&nbsp;&nbsp;&nbsp;algemeen</option>
+ <option value="skelet.html">&nbsp;&nbsp;&nbsp;&nbsp;skelet</option>
+ <option value="spieren.html">&nbsp;&nbsp;&nbsp;&nbsp;spieren/pezen</option>
+ <option value="hoeven.html">&nbsp;&nbsp;&nbsp;&nbsp;de hoef</option>
+ <option value="gebit.html">&nbsp;&nbsp;&nbsp;&nbsp;gebit</option>
+ <option value="spijsverteringsstelsel.html">&nbsp;&nbsp;&nbsp;&nbsp;spijsvertering</option>
+ <option value="bloedsomloop.html">&nbsp;&nbsp;&nbsp;&nbsp;bloedsomloop</option>
+ <option value="kreupelheidsonderzoek.html">kreupelheidsonderzoek</option>
+</select>
 
-               </td>
-            </tr>
-         </table>
-
-
-         <h2 id="top"></h2>
-         <div align="center">
-
-            <iframe id="iframebanner" name="iframebanner" class="iframebanner" src="../centrale/reclame-banner.html"
-               frameborder="0" allowtransparency="true" scrolling="no">
-            </iframe>
-         </div>
-         <br>
-         <h1>Anatomie van het paard</h1>
-         <br>
-         <br>
-         <div class="letterwit">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="#skelet"> 1. Het skelet</a><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="../leerblaadjes/skelet-algemeen-leren.html"> 2.
-               Het skelet leren</a><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="#spieren"> 3. Spieren</a><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="#hoef"> 4. De hoef</a><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="#gebit"> 5. Het gebit</a><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="#spijsvertering"> 6.
-               Spijsverteringsstelsel</a><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" href="#bloedsomloop"> 7. Bloedsomloop</a><br>
-         </div>
-         <br>
-         <br>
+</td>
+</tr>
+</table>
 
 
-         <a class="speciaalwittekst" href="../leerblaadjes/skelet-algemeen-leren.html"><b>HET SKELET LEREN (nu ook voor
-               iPad): </b> KLIK HIER!</a><br>
-         <br>
-         <h2 id="skelet"></h2>
-         <br>
-         <br>
+<h2 id="top"></h2>
+					<div align="center">
 
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="titelwit" height="20">
-                  <b>Het skelet van het paard:</b>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div>
-                     <img src=".. /../paard/img-skelet/paard-mens.jpg" style="width:100%; max-width:400px" border="0">
-                     <br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="200">
-                              Bron:<br>
-                              <b>http://blog.seniorennet.be</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div>
-                     <img src=".. /../paard/img-skelet/skelet.jpg" style="width:100%; max-width:400px"" border=" 0"><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="200">
-                              Bron:<br>
-                              <b>http://www.eigenpaard.nl </b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="letterwit">
-                     1. Voorhoofdsbeen - os frontale<br>
-                     2. Neusbeen - os nasale <br>
-                     3. Achterhoofdsbeen - os parietale<br>
-                     4. Oogkas<br>
-                     5. Jukbeen - os zygomatycus<br>
-                     6. Bovenkaaksbeen - maxilla<br>
-                     7. Onderkaaksbeen - mandibula<br>
-                     8. Eerste halswervel/atlas<br>
-                     9. Zevende halswervel<br>
-                     10. Eerste borstwervel<br>
-                     11. Borstwervels - vertebrae thoracae<br>
-                     12. Lendewervels - vertebrae lumbales<br>
-                     13. Kruis-/heiligbeen - sacrum<br>
-                     14. Staartwervels - vertebrae caudales<br>
-                     15. Schouderblad - scapula<br>
-                     16. Boeg-/schoudergewricht<br>
-                     17. Opperarmbeen - humerus<br>
-                     18. Ellebooggewricht<br>
-                     19. Ellepijp met ellepijpshoofd - ulna<br>
-                     20. Spaakbeen - radius<br>
-                     21. Voorkniegewricht - carpus<br>
-                  </div>
-                  <div class="letterwit">
-                     22. Haakbeen - os carpi accessorium<br>
-                     23. Pijpbeen met griffelbeentjes - metacarpus<br>
-                     24. Kootgewricht<br>
-                     25. Sesambeentjes - sesamo�des<br>
-                     26. Kootbeen - phalanx proximalis<br>
-                     27. Kroonbeen - phalanx media<br>
-                     28. Hoefbeen - phalanx distalis<br>
-                     29. Ribben - costae<br>
-                     30. Bekken - pelvis<br>
-                     31. Heupknobbel<br>
-                     32. Zitbeen - ischium<br>
-                     33. Heupgewricht<br>
-                     34. Dijbeen - femur<br>
-                     35. Knieschijf - patella<br>
-                     36. Kniegewricht - tarsus<br>
-                     37. Scheen-/schenkelbeen - tibis<br>
-                     38. Kuitbeen - fibula<br>
-                     39. Spronggewricht - tarsus<br>
-                     40. Hielbeen/hak - calcaneus<br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>HET SKELET LEREN (nu ook voor iPad): <a class="speciaalwittekst"
-                        href="../leerblaadjes/skelet-algemeen-leren.html"> </b> KLIK HIER!</a><br>
-                  <br>
-                  skelet: 210 botten (ongeveer)<br>
-                  schedel: 37 botten<br>
-                  ieder oor: 3 gehoorbeentjes<br>
-                  voorbeen/achterbeen: 40 botten<br>
-                  ruggengraat: 54 wervels<br>
-                  ribben: 36 (2x18)<br>
-                  lendewervels: 6<br>
-                  staartwervels: 18<br>
-                  <br>
-                  <b>Arabier: </b><br>
-                  ribben 34 (2x17)<br>
-                  lendewervels: 5<br>
-                  staartwervels: 16<br>
-                  <br>
-                  <br>
+		<iframe  id="iframebanner" name="iframebanner" class="iframebanner" src="../centrale/reclame-banner.html"  frameborder="0" allowtransparency="true" scrolling=no>
+		</iframe>
+					</div> 		  
+<br>
+<h1>Anatomie van het paard</h1>
+<br>
+<br>
+					<div class="letterwit">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" HREF="#skelet"> 1. Het skelet</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit"  href="../leerblaadjes/skelet-algemeen-leren.html"> 2. Het skelet leren</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" HREF="#spieren"> 3. Spieren</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" HREF="#hoef"> 4. De hoef</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" HREF="#gebit"> 5. Het gebit</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" HREF="#spijsvertering"> 6. Spijsverteringsstelsel</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="speciaalwit" HREF="#bloedsomloop"> 7. Bloedsomloop</a><br>
+					</div>
+<br>
+<br>
 
-                  Het skelet van een paard bestaat uit zo'n 210 botten (ongeveer) waarvan er 37 in de schedel zitten,
-                  inclusief drie gehoorbeentjes in ieder oor. <br>
-                  De ruggengraat bestaat uit 54 wervels. De eerste twee zijn de atlas en de draaier, deze zorgen er voor
-                  dat het hoofd kan draaien. Een paard heeft in het totaal 36 ribben, maar er zijn rassen die 34 ribben
-                  hebben bijvoorbeeld Arabieren. <br>
-                  De belijning van de Arabier wordt bepaald door de unieke bouw van het skelet. De Arabier heeft 17
-                  ribben, 5 lendewervels en 16 staartwervels; bij de andere rassen zijn de aantallen respectievelijk 18,
-                  6 en 18. Dit verschil in bouw is mede oorzaak van de hoge staartdracht.<br>
-                  Er zijn ook rassen met 38 ribben.<br>
-                  In een voorbeen of een achterbeen (inclusief het bekken) bevinden zich in het totaal zo�n 40
-                  verschillende botten. <br>
-                  <br>
-                  <a class="speciaalwittekst" href="skelet.html">&nbsp;Meer weten.........</a><br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <p onClick="uitvouwen('sc200')" class="uitvouwentekst">Video's <img
-                        src="../../img/look-down-arrow.png" style="float:right; height:25px; "></p>
-                  <div id="sc200" class="wisselen">
-                     <div class="videocel">
-                        <iframe width="180" height="130"
-                           src="http://www.youtube-nocookie.com/embed/GdoMWXbOrQ8?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                     </div>
-                     <div class="videocel">
-                        <iframe width="150" height="130"
-                           src="http://www.youtube-nocookie.com/embed/wtWliY1yQXY?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                     </div>
-                     <div class="videocel">
-                        <iframe width="150" height="130"
-                           src="http://www.youtube-nocookie.com/embed/nKZvT4PmzEk?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            </tr>
-         </table>
+
+<a class="speciaalwittekst"  href="../leerblaadjes/skelet-algemeen-leren.html"><b>HET SKELET LEREN (nu ook voor iPad): </b> KLIK HIER!</a><br>
+<br>			
+<h2 id="skelet"></h2>
+<br>
+<br> 
+
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="titelwit"   height="20">
+<b>Het skelet van het paard:</b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div>
+<img src='../../paard/img-skelet/paard-mens.jpg' style="width:100%; max-width:400px" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="200">
+Bron:<br>
+<b>http://blog.seniorennet.be</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div>
+<img src='../../paard/img-skelet/skelet.jpg' style="width:100%; max-width:400px"" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="200">
+Bron:<br>
+<b>http://www.eigenpaard.nl </b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>  
+<div class="letterwit">     
+1. Voorhoofdsbeen - os frontale<br>
+2. Neusbeen - os nasale <br>
+3. Achterhoofdsbeen - os parietale<br> 
+4. Oogkas<br>
+5. Jukbeen - os zygomatycus<br>
+6. Bovenkaaksbeen  - maxilla<br>
+7. Onderkaaksbeen  - mandibula<br> 
+8. Eerste halswervel/atlas<br>
+9. Zevende halswervel<br> 
+10. Eerste borstwervel<br> 
+11. Borstwervels - vertebrae thoracae<br>
+12. Lendewervels - vertebrae lumbales<br>
+13. Kruis-/heiligbeen - sacrum<br> 
+14. Staartwervels - vertebrae caudales<br> 
+15. Schouderblad - scapula<br>
+16. Boeg-/schoudergewricht<br>
+17. Opperarmbeen - humerus<br> 
+18. Ellebooggewricht<br>
+19. Ellepijp met ellepijpshoofd - ulna<br> 
+20. Spaakbeen - radius<br>
+21. Voorkniegewricht - carpus<br>
+</div>
+<div class="letterwit"> 
+22. Haakbeen - os carpi accessorium<br>
+23. Pijpbeen met griffelbeentjes - metacarpus<br>
+24. Kootgewricht<br> 
+25. Sesambeentjes - sesamo�des<br>
+26. Kootbeen - phalanx proximalis<br> 
+27. Kroonbeen - phalanx media<br>   
+28. Hoefbeen - phalanx distalis<br> 
+29. Ribben - costae<br> 
+30. Bekken - pelvis<br>
+31. Heupknobbel<br> 
+32. Zitbeen -  ischium<br> 
+33. Heupgewricht<br> 
+34. Dijbeen - femur<br> 
+35. Knieschijf - patella<br> 
+36. Kniegewricht - tarsus<br> 
+37. Scheen-/schenkelbeen - tibis<br> 
+38. Kuitbeen - fibula<br> 
+39. Spronggewricht  - tarsus<br> 
+40. Hielbeen/hak - calcaneus<br> 
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit"> 
+<br>
+<b>HET SKELET LEREN (nu ook voor iPad): <a class="speciaalwittekst"  href="../leerblaadjes/skelet-algemeen-leren.html"> </b> KLIK HIER!</a><br>
+<br>
+skelet: 210 botten (ongeveer)<br>
+schedel: 37 botten<br>
+ieder oor: 3 gehoorbeentjes<br>
+voorbeen/achterbeen: 40 botten<br>
+ruggengraat: 54 wervels<br>
+ribben: 36  (2x18)<br>
+lendewervels: 6<br>
+staartwervels: 18<br>
+<br>
+<b>Arabier: </b><br>
+ribben 34 (2x17)<br>
+lendewervels: 5<br>
+staartwervels: 16<br>
+<br>
+<br>
+
+Het skelet van een paard bestaat uit zo'n 210 botten (ongeveer) waarvan er 37 in de schedel zitten, inclusief drie gehoorbeentjes in ieder oor. <br>
+De ruggengraat bestaat uit 54 wervels. De eerste twee zijn de atlas en de draaier, deze zorgen er voor dat het hoofd kan draaien. Een paard heeft in het totaal 36 ribben, maar er zijn rassen die 34 ribben hebben bijvoorbeeld Arabieren. <br>
+De belijning van de Arabier wordt bepaald door de unieke bouw van het skelet. De Arabier heeft 17 ribben, 5 lendewervels en 16 staartwervels; bij de andere rassen zijn de aantallen respectievelijk 18, 6 en 18. Dit verschil in bouw is mede oorzaak van de hoge staartdracht.<br>
+Er zijn ook rassen met  38 ribben.<br>
+In een voorbeen of een achterbeen (inclusief het bekken) bevinden zich in het totaal zo�n 40 verschillende botten. <br>
+<br>
+<a class="speciaalwittekst"  href="skelet.html">&nbsp;Meer weten.........</a><br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<p onClick="uitvouwen('sc200')" class="uitvouwentekst" >Video's <img  src='../../img/look-down-arrow.png' style="float:right; height:25px; " ></p>
+<div id="sc200" class="wisselen">
+   <div class="videocel"> 
+<iframe width="180" height="130" src="http://www.youtube-nocookie.com/embed/GdoMWXbOrQ8?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <div class="videocel"> 
+<iframe width="150" height="130" src="http://www.youtube-nocookie.com/embed/wtWliY1yQXY?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <div class="videocel">
+<iframe width="150" height="130" src="http://www.youtube-nocookie.com/embed/nKZvT4PmzEk?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+   </div>
+</div>
+   </td>
+   </tr>
+   </tr>
+   </table>
 
 
 
 
-         <br>
-         <h2 id="spieren"></h2>
-         <br>
-         <br>
+<br>			
+<h2 id="spieren"></h2>
+<br>
+<br>
 
-         <table class="tableweetjes" border="2">
-            <tr>
-               <td class="titelwit" height="20">
-                  <b>De spieren van het paard:</b>
-               </td>
-            </tr>
-            <tr>
-               <td align="center" colspan="2">
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spieren/spieren-latijn-basis.jpg" width="400" border="0"><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="150">
-                              Bron:<br>
-                              <b>www.virbac.be</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="letterwit">
-                     4. m. splenius<br>
-                     5. m. trapezius<br>
-                     7. m. latissimus dorsi<br>
-                     6. m. serratus ventralis<br>
-                     8. m. sternomandibularis<br>
-                     9. m. brachiocephalicus<br>
-                     11. m. subclavius<br>
-                     13. m. deltoideus<br>
-                     14. m. caput longum mi.tricipitis brachii<br>
-                     15. m. caput laterale mi.tricipitis brachii<br>
-                     16. m. brachialis<br>
-                     17. m. extensor carpi radialis<br>
-                     18. m. extensor digitalis communis<br>
-                     19. m. extensor carpi ulnaris<br>
-                     21. mm intercostales externi<br>
-                     22. m. obliquus externus abdominis<br>
-                     &nbsp;&nbsp;22'. m. aponeurosis mi.obliqui externi abdominis<br>
-                     24. m. tensor fasciae latae<br>
-                     25. m. gluteus medius<br>
-                     26. m. gluteus superficialis<br>
-                     27. m. biceps femoris <br>
-                     28. m. semitendinosus<br>
-                     30. fascia lata<br>
-                     31. m. extensor digitalis longus<br>
-                  </div>
-                  <div class="letterwit">
+   <table class="tableweetjes" border="2" >
+   <tr>
+   <td class="titelwit"   height="20">
+<b>De spieren van het paard:</b>
+   </td>
+   </tr>
+   <tr>
+  <td align="center" colspan="2">
+<div class="videocel">
+<img src='../../paard/img-spieren/spieren-latijn-basis.jpg' width="400" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="150">
+Bron:<br>
+<b>www.virbac.be</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>  
+<div class="letterwit"> 
+4.  m. splenius<br>
+5.  m. trapezius<br> 
+7.  m. latissimus dorsi<br> 
+6.  m. serratus ventralis<br>
+8.  m. sternomandibularis<br> 
+9.  m. brachiocephalicus<br> 
+11. m. subclavius<br>
+13. m. deltoideus<br>
+14. m. caput longum mi.tricipitis brachii<br>
+15. m. caput laterale mi.tricipitis brachii<br>
+16. m. brachialis<br>
+17. m. extensor carpi radialis<br>
+18. m. extensor digitalis communis<br>
+19. m. extensor carpi ulnaris<br>
+21. mm intercostales externi<br> 
+22. m. obliquus externus abdominis<br> 
+   &nbsp;&nbsp;22'. m. aponeurosis mi.obliqui externi abdominis<br> 
+24. m. tensor fasciae latae<br>
+25. m. gluteus medius<br>
+26. m. gluteus superficialis<br>
+27. m. biceps femoris <br>
+28. m. semitendinosus<br> 
+30. fascia lata<br> 
+31. m. extensor digitalis longus<br>
+</div>
+<div class="letterwit"> 
 
-                     4. riemspier of miltvormige spier<br>
-                     5. monnikskapspier<br>
-                     7. brede rugspier<br>
-                     6. onderste getande spier<br>
-                     8. borstbeen/onderkaakspier<br>
-                     9. <br>
-                     11. ondersleutelbeenspier<br>
-                     13. deltaspier<br>
-                     14. lange hoofd van de driehoofdige bovenarmspier<br>
-                     15. buitenste hoofd van de driehoofdige bovenarmspier<br>
-                     16. tweehoofdige bovenarmspier<br>
-                     17. binnenste handstrekker<br>
-                     18. gemeenschappelijke teenstrekker<br>
-                     19. buitenste handstrekker<br>
-                     21. tussenribspieren<br>
-                     22. buitenste schuine buikspier<br>
-                     &nbsp;&nbsp;22'. rechte buikspier<br>
-                     <br>
-                     24. peesblad van het bovenbeen<br>
-                     25. middelgrote bilspier<br>
-                     26. oppervlakkige bilspier<br>
-                     27. tweehoofdige dijspier<br>
-                     28. halfpezige spier<br>
-                     30. spanner van het brede dijvlies<br>
-                     31. lange teenstrekker<br>
-                  </div>
-                  <br>
-                  <a class="speciaalwittekst" href="spieren.html">&nbsp;Meer weten.........</a><br>
-                  <br>
-                  <b>Verloop van de spieren, origo en insertie, functie en SPIEREN LEREN:</b><a class="speciaalwittekst"
-                     href="../leerblaadjes/spieren/spieren-algemeen-leren.html"> &nbsp;Klik hier!</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>LIJST belangrijke spieren</b> (origo insertie, functie): <a
-                     class="speciaalwittekst" href="../leerblaadjes/spieren/spieren-lijst.html">Klik hier!</a><br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spieren/voorbenen-spieren-1.jpg" width="150" border="0"><br>
-                     <table border="1">
-                        <tr>
-                           <td class="bronwit" width="148">
-                              Bron:<br>
-                              <b>www.virbac.be</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     9. m. brachiocephalicus<br>
-                     15. m. caput laterale mi.tricipitis brachii - buitenste hoofd van de driehoofdige armspier<br>
-                     16. m. brachialis - tweehoofdige bovenarmspier<br>
-                     17. m. extensor carpi radialis - binnenste handstrekker<br>
-                     18. m. extensor digitalis communis - teenstrekker<br>
-                     19. m. extensor carpi ulnaris - buitenste handstrekker<br>
-                     36. m. extensor digitalis lateralis - buitenste teenstrekker<br>
-                     40. tendo mi.flexoris digitalis profundi - diepe teenbuiger<br>
-                     44. tendo mi.flexoris digitalis superficialis - oppervlakkige teenbuiger<br>
-                     45. interosseus - tussenbotspier<br>
-                     50. m. abductor digiti primi longus<br>
-                     51. retinaculum flexorum<br>
-                     51'.retinaculum extensorum<br>
-                     52. lig.metacarpeum transversum superficiale<br>
-                     53. lig.annulare digiti<br>
-                     <br>
-                     <a class="speciaalwittekst" href="spieren.html">&nbsp;Meer weten.........</a><br>
-                     <br>
-                     Spieren leren?<a class="speciaalwittekst"
-                        href="../leerblaadjes/spieren/spieren-algemeen-leren.html">&nbsp;Klik hier!</a> <br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spieren/achterbenen-spieren-1.jpg" width="150" border="0"><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="148">
-                              Bron:<br>
-                              <b>www.virbac.be</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     27. m. biceps femoris - tweehoofdige dijbeenspier<br>
-                     28. m. semitendinosus<br>
-                     31. m. extensor digitalis longus - lange teenstrekker<br>
-                     36. m. extensor digitalis lateralis<br>
-                     37. m. gastrocnemius - kuitspier<br>
-                     39. m. semimembranosus - halfvliezige spier<br>
-                     40. tendo mi.flexoris digitalis profundi - pees diepe teenbuiger<br>
-                     41. m. soleus<br>
-                     43. m. flexor digitalis lateralis - buitenste teenbuiger<br>
-                     44. tendo mi.flexoris digitalis superficialis<br>
-                     45. m. interosseus - tussenbotspier<br>
-                     53. m. popliteus<br>
-                     57. m. adductor<br>
-                     58. tendo mi.tricipitis surae - achillespees<br>
-                     59. retinaculum extensorum crurale<br>
-                     60. retinaculum extensorum tarsale<br>
-                     61. retinaculum extensorum metatarsale<br>
-                     62. m. extensor digitalis brevis<br>
-                     62'. lig.accessorium mi.flexoris digitalis profundi<br>
-                     63. lig.metatarseum transversum superficiale<br>
-                     64. lig.patellae laterale<br>
-                     65. lig.patellae intermedium<br>
-                     66. meniscus lateralis<br>
-                     67. lig.collaterale laterale<br>
-                     <br>
-                     <a class="speciaalwit" href="spieren.html">&nbsp;Meer weten.........</a><br>
-                     <br>
-                     Spieren leren?<a class="speciaalwittekst"
-                        href="../leerblaadjes/spieren/spieren-algemeen-leren.html">&nbsp;Klik hier!</a> <br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-         </table>
+4.  riemspier of miltvormige spier<br>
+5.  monnikskapspier<br> 
+7.  brede rugspier<br> 
+6.  onderste getande spier<br>
+8.  borstbeen/onderkaakspier<br> 
+9.  <br> 
+11. ondersleutelbeenspier<br>
+13. deltaspier<br>
+14. lange hoofd van de driehoofdige bovenarmspier<br>
+15. buitenste hoofd van de driehoofdige bovenarmspier<br>
+16. tweehoofdige bovenarmspier<br>
+17. binnenste handstrekker<br>
+18. gemeenschappelijke teenstrekker<br>
+19. buitenste handstrekker<br>
+21. tussenribspieren<br> 
+22. buitenste schuine buikspier<br> 
+   &nbsp;&nbsp;22'. rechte buikspier<br>
+<br> 
+24. peesblad van het bovenbeen<br>
+25. middelgrote bilspier<br>
+26. oppervlakkige bilspier<br>
+27. tweehoofdige dijspier<br>
+28. halfpezige spier<br> 
+30. spanner van het brede dijvlies<br> 
+31. lange teenstrekker<br>
+</div>
+<br>
+<a class="speciaalwittekst"  href="spieren.html">&nbsp;Meer weten.........</a><br>
+<br>
+<b>Verloop van de spieren, origo en insertie, functie en SPIEREN LEREN:</b><a class="speciaalwittekst" HREF="../leerblaadjes/spieren/spieren-algemeen-leren.html"> &nbsp;Klik hier!</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>LIJST belangrijke spieren</b> (origo insertie, functie): <a class="speciaalwittekst" HREF="../leerblaadjes/spieren/spieren-lijst.html">Klik hier!</a><br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-spieren/voorbenen-spieren-1.jpg' width="150" border="0"><br>
+ 	  <table  border="1" >
+	   <tr>
+ 	  <td class="bronwit"  width="148">
+Bron:<br>
+<b>www.virbac.be</b><br>
+          </td>
+	  </tr>
+	  </table>
+</div>
+<div class="letterwitvideo"> 
+<br>
+9.  m. brachiocephalicus<br>
+15. m. caput laterale mi.tricipitis brachii - buitenste hoofd van de driehoofdige armspier<br>
+16. m. brachialis - tweehoofdige bovenarmspier<br>
+17. m. extensor carpi radialis - binnenste handstrekker<br>
+18. m. extensor digitalis communis - teenstrekker<br>
+19. m. extensor carpi ulnaris - buitenste handstrekker<br>
+36. m. extensor digitalis lateralis - buitenste teenstrekker<br>
+40. tendo mi.flexoris digitalis profundi - diepe teenbuiger<br>
+44. tendo mi.flexoris digitalis superficialis - oppervlakkige teenbuiger<br>
+45. interosseus - tussenbotspier<br>
+50. m. abductor digiti primi longus<br>
+51. retinaculum flexorum<br>
+51'.retinaculum extensorum<br>
+52. lig.metacarpeum transversum superficiale<br>
+53. lig.annulare digiti<br>
+<br>
+<a class="speciaalwittekst"  href="spieren.html">&nbsp;Meer weten.........</a><br> 
+<br>
+Spieren leren?<a class="speciaalwittekst" HREF="../leerblaadjes/spieren/spieren-algemeen-leren.html">&nbsp;Klik hier!</a> <br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-spieren/achterbenen-spieren-1.jpg' width="150" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="148">
+Bron:<br>
+<b>www.virbac.be</b><br>
+	   </td>
+	  </tr>
+	  </table>
+</div>
+<div class="letterwitvideo"> 
+<br> 
+27. m. biceps femoris - tweehoofdige dijbeenspier<br>
+28. m. semitendinosus<br> 
+31. m. extensor digitalis longus - lange teenstrekker<br>
+36. m. extensor digitalis lateralis<br>
+37. m. gastrocnemius - kuitspier<br>
+39. m. semimembranosus - halfvliezige spier<br>
+40. tendo mi.flexoris digitalis profundi - pees diepe teenbuiger<br>
+41. m. soleus<br>
+43. m. flexor digitalis lateralis - buitenste teenbuiger<br>
+44. tendo mi.flexoris digitalis superficialis<br>
+45. m. interosseus - tussenbotspier<br>
+53. m. popliteus<br>
+57. m. adductor<br>
+58. tendo mi.tricipitis surae - achillespees<br>
+59. retinaculum extensorum crurale<br>
+60. retinaculum extensorum tarsale<br>
+61. retinaculum extensorum metatarsale<br>
+62. m. extensor digitalis brevis<br>
+62'. lig.accessorium mi.flexoris digitalis profundi<br>
+63. lig.metatarseum transversum superficiale<br>
+64. lig.patellae laterale<br>
+65. lig.patellae intermedium<br>
+66. meniscus lateralis<br>
+67. lig.collaterale laterale<br>
+<br>
+<a class="speciaalwit"  href="spieren.html">&nbsp;Meer weten.........</a><br>
+<br>
+Spieren leren?<a class="speciaalwittekst" HREF="../leerblaadjes/spieren/spieren-algemeen-leren.html">&nbsp;Klik hier!</a> <br>
+<br>
+</div>
+   </td>
+   </tr>
+   </table>
 
 
-         <br>
-         <h2 id="springoefeningen-in-zakformaat"></h2>
-         <br>
-         <br>
+<br>
+<h2 id="springoefeningen-in-zakformaat"></h2>
+<br> 
+<br>
 
-         <br>
-         <h2 id="springoefeningen-in-zakformaat"></h2>
-         <br>
-         <br>
-         <table class="tableweetjes" border="1">
-            <tr>
-               <td class="titelwit">
-                  <b>Springoefeningen in zakformaat</b><br>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div>
-                     <img alt="springboekje" id="springboekje" src="../../boekjes/boekjes/springboekje.png" width="250"
-                        border="0">
-                  </div>
-                  <div class="letterwit">
-                     <br>
-                     Wil je verschillende springoefeningen en enkele parcoursschetsen in een handig boekje? <br>
-                     Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
-                     <br>
-                     <a class="speciaalwittekst" href="../boekjes/boekjes/bestel-boekje.php" target="_new">Lees meer
-                        ............</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-         </table>
+<br>
+<h2 id="springoefeningen-in-zakformaat"></h2>
+<br> 
+<br>
+   <table class="tableweetjes"  border="1">
+   <tr>
+   <td  class="titelwit">
+<b>Springoefeningen in zakformaat</b><br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+   <div>
+<img alt="springboekje" id="springboekje" src='../../boekjes/boekjes/springboekje.png' width="250" border="0">
+   </div>
+   <div class="letterwit">
+<br>
+Wil je verschillende springoefeningen en enkele parcoursschetsen in een handig boekje? <br>
+Een leuk geschenk voor jezelf, je vriend(in) of familielid.<br>
+<br>
+<a class="speciaalwittekst" href='../boekjes/boekjes/bestel-boekje.php' target='_new'>Lees meer ............</a><br>
+<br>
+   </div>
+   </td>
+   </tr>
+   </table>
 
 
 
-         <br>
-         <h2 id="hoef"></h2>
-         <br>
-         <br>
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="titelwit" height="20">
-                  <b>De hoef</b>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-onderbeen-hoef/hoef1.jpg" width="150" border="0"><br>
-                     <table border="3" width="150">
-                        <tr>
-                           <td class="bronwit">
-                              Bron:<br>
-                              <b>http://www.<br>
-                                 hoefsmidschellingerhout.nl</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     De hoef is te vergelijken met onze middelste vinger of teennagel. Het paard loopt als het ware op
-                     het puntje van zijn (uitgegroeide) vinger of teen.<br>
-                     A: Spronggewricht<br>
-                     B: Kniegewricht<br>
-                     <br>
-                     <a class="speciaalwittekst" href="hoeven.html">&nbsp;Meer weten.........</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-onderbeen-hoef/hoef2.jpg" width="150" border="0"><br>
-                     <table border="3" width="150">
-                        <tr>
-                           <td class="bronwit">
-                              Bron:<br>
-                              <b>http://www.<br>
-                                 hoefsmidschellingerhout.nl</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     A. Kroonrand<br>
-                     B. Zoom<br>
-                     C. Hoornwand<br>
-                     D. Verzenen<br>
-                     E. Verzenenwand<br>
-                     F. Kwartier<br>
-                     G. Toon/teen<br>
-                     H. Hoornige ballen<br>
-                     <br>
-                     <a class="speciaalwittekst" href="hoeven.html">&nbsp;Meer weten.........</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-onderbeen-hoef/hoef3.gif" width="150" border="0"><br>
-                     <table border="3" width="100%">
-                        <tr>
-                           <td class="bronwit">
-                              Bron:<br>
-                              <b>http://www.<br>
-                                 hoefsmidschellingerhout.nl</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     1. Draagrand <br>
-                     2. Witte lijn<br>
-                     3. Hoornzool<br>
-                     4. Straal<br>
-                     5. Zijdelingse straalgroeven<br>
-                     6. Middelste straalgroeve<br>
-                     7. Hoornige steunsels<br>
-                     8. Hoornige ballen<br>
-                     <br>
-                     <b>Pas op:</b> de witte lijn is niet wit, maar bruin of gelig en ligt aan de binnenkant van de
-                     ongepigmenteerde hoefwand (waterlijn) die wel wit is.<br>
-                     <br>
-                     <a class="speciaalwittekst" href="hoeven.html">&nbsp;Meer weten.........</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-onderbeen-hoef/hoef5.jpg" width="150" border="0"><br>
-                     <table border="3" width="100%">
-                        <tr>
-                           <td class="bronwit">
-                              Bron:<br>
-                              <b>http://www.<br>
-                                 hoefsmidschellingerhout.nl</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     1. Sesambeenderen. Twee half pyramidevormige beenderen<br>
-                     2. Pijpbeen<br>
-                     3. Het kootbeen<br>
-                     4. Kroonbeen<br>
-                     5. Hoefbeen<br>
-                     6. Straalbeen. Een klein langwerpig, plat been. Maakt deel uit van het hoefkatrol<br>
-                     <br>
-                     <a class="speciaalwittekst" href="hoeven.html">&nbsp;Meer weten.........</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td colspan="3" align="center">
-                  <div class="videocel">
-                     <img src=".. /../paard/img-onderbeen-hoef/doorsnede-hoef.jpg" width="400" border="0"><br>
-                     <table border="3" style="width:100%; max-width:400px">
-                        <tr>
-                           <td class="bronwit">
-                              Bron:<br>
-                              <b>http://informatie<br>
-                                 voorpaardenliefhebbers.<br>
-                                 jouwweb.nl</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <p onClick="uitvouwen('sc201')" class="uitvouwentekst">Video <img src="../../img/look-down-arrow.png"
-                        style="float:right; height:25px; "></p>
-                  <div id="sc201" class="wisselen">
-                     <div class="videocel">
-                        <iframe width="150" height="130"
-                           src="http://www.youtube-nocookie.com/embed/2rv72qKQBBQ?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                     </div>
-                     <div class="videocel">
-                        <iframe width="150" height="110"
-                           src="http://www.youtube-nocookie.com/embed/yrlUaFFdv3Y?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                     </div>
-                     <div class="videocel">
-                        <iframe width="150" height="130"
-                           src="http://www.youtube-nocookie.com/embed/VLmEzqSpqeo?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                        hoefbeweging
-                     </div>
-                  </div>
+<br>			
+<h2 id="hoef"></h2>
+<br>
+<br>
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="titelwit"   height="20">
+<b>De hoef</b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-onderbeen-hoef/hoef1.jpg'  width="150" border="0"><br>
+ 	  <table  border="3" width="150">
+	   <tr>
+ 	  <td class="bronwit" >
+Bron:<br>
+<b>http://www.<br>
+hoefsmidschellingerhout.nl</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<div class="letterwitvideo"> 
+<br>
+De hoef is te vergelijken met onze middelste vinger of teennagel. Het paard loopt als het ware op het puntje van zijn (uitgegroeide) vinger of teen.<br>
+A: Spronggewricht<br>
+B: Kniegewricht<br>
+<br>
+<a class="speciaalwittekst"  href="hoeven.html">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-onderbeen-hoef/hoef2.jpg' width="150" border="0"><br>
+ 	  <table  border="3"  width="150">
+	  <tr>
+ 	  <td class="bronwit" >
+Bron:<br>
+<b>http://www.<br>
+hoefsmidschellingerhout.nl</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<div class="letterwitvideo"> 
+<br>
+A. Kroonrand<br>
+B. Zoom<br>
+C. Hoornwand<br>
+D. Verzenen<br>
+E. Verzenenwand<br>
+F. Kwartier<br>
+G. Toon/teen<br>
+H. Hoornige ballen<br>
+<br>
+<a class="speciaalwittekst"  href="hoeven.html">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-onderbeen-hoef/hoef3.gif' width="150" border="0"><br>
+ 	  <table  border="3" width="100%">
+	   <tr>
+ 	  <td class="bronwit" >
+Bron:<br>
+<b>http://www.<br>
+hoefsmidschellingerhout.nl</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<div class="letterwitvideo"> 
+<br>
+1. Draagrand <br>
+2. Witte lijn<br>
+3. Hoornzool<br>
+4. Straal<br>
+5. Zijdelingse straalgroeven<br>
+6. Middelste straalgroeve<br>
+7. Hoornige steunsels<br>
+8. Hoornige ballen<br>
+<br>
+<b>Pas op:</b> de witte lijn is niet wit, maar bruin of gelig en ligt aan de binnenkant van de ongepigmenteerde hoefwand (waterlijn) die wel wit is.<br>
+<br>
+<a class="speciaalwittekst"  href="hoeven.html">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+   </td>  
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-onderbeen-hoef/hoef5.jpg' width="150" border="0"><br>
+ 	  <table  border="3" width="100%">
+	   <tr>
+ 	  <td class="bronwit"  >
+Bron:<br>
+<b>http://www.<br>
+hoefsmidschellingerhout.nl</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<div class="letterwitvideo"> 
+<br>
+1. Sesambeenderen. Twee half pyramidevormige beenderen<br>
+2. Pijpbeen<br>
+3. Het kootbeen<br>
+4. Kroonbeen<br>
+5. Hoefbeen<br>
+6. Straalbeen. Een klein langwerpig, plat been. Maakt deel uit van het hoefkatrol<br>
+<br>
+<a class="speciaalwittekst"  href="hoeven.html">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+   </td>
+  </tr>
+   <tr>
+   <td  colspan="3"  align="center">
+<div class="videocel">
+<img src='../../paard/img-onderbeen-hoef/doorsnede-hoef.jpg' width="400" border="0"><br>
+ 	  <table  border="3" style="width:100%; max-width:400px">
+	   <tr>
+ 	  <td class="bronwit"  >
+Bron:<br>
+<b>http://informatie<br>
+voorpaardenliefhebbers.<br>
+jouwweb.nl</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td> 
+<p onClick="uitvouwen('sc201')" class="uitvouwentekst" >Video <img  src='../../img/look-down-arrow.png' style="float:right; height:25px; " ></p>
+<div id="sc201" class="wisselen">
+   <div class="videocel">
+<iframe width="150" height="130" src="http://www.youtube-nocookie.com/embed/2rv72qKQBBQ?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <div class="videocel">
+<iframe width="150" height="110" src="http://www.youtube-nocookie.com/embed/yrlUaFFdv3Y?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <div class="videocel"> 
+<iframe width="150" height="130" src="http://www.youtube-nocookie.com/embed/VLmEzqSpqeo?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+hoefbeweging
+   </div>
+</div>
 
-               </td>
-            </tr>
-         </table>
+   </td>
+   </tr>
+   </table>
 
-         <br>
-         <h2 id="gebit"></h2>
-         <br>
-         <br>
+<br>			
+<h2 id="gebit"></h2>
+<br>
+<br>
 
 
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="titelwit" height="20">
-                  <b>Het gebit</b>
-               </td>
-            </tr>
-         </table>
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-gebit/gebit-1.jpg" width="150px" border="0">
-                  </div>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-gebit/gebit-2.jpg" width="150px" border="0">
-                  </div>
-               </td>
-            </tr>
-         </table>
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>Kaakhelft volgroeid paard</b><br>
-                  &#8226; 3 snijtanden <br>
-                  &#8226; 6 kiezen <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 of 4 premolaren (valse kiezen)<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 molaren <br>
-                  &#8226; 1 hoektand (ook haaktanden of hengstentanden genoemd)<br>
-                  <br>
-                  <b>Totaal volgroeid paard</b><br>
-                  &#8226; 12 snijtanden (6 in de bovenkaak en 6 in de onderkaak) <br>
-                  &#8226; 24 kiezen (6 aan iedere kant in de boven- en onderkaak)<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 premolaren (valse kiezen)<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 molaren <br>
-                  &#8226; 4 hoektanden (ook haaktanden of hengstentanden genoemd)<br>
-                  <br>
-                  <b>Totaal</b><br>
-                  36 tot 42 tanden<br>
-                  <br>
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="titelwit"   height="20">
+<b>Het gebit</b>
+   </td>
+   </tr>
+   </table>
+   <table class="tableweetjes"  border="3" >
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-gebit/gebit-1.jpg' width="150px" border="0">
+</div>
+<div class="videocel">
+<img src='../../paard/img-gebit/gebit-2.jpg' width="150px" border="0">
+</div>
+   </td>
+   </tr>
+   </table>
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="letterwit">
+<br>
+<b>Kaakhelft volgroeid paard</b><br>
+&#8226; 3 snijtanden <br>
+&#8226; 6 kiezen <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 of 4  premolaren (valse kiezen)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 molaren <br> 
+&#8226; 1 hoektand (ook haaktanden of hengstentanden genoemd)<br> 
+<br>
+<b>Totaal volgroeid paard</b><br>
+&#8226; 12 snijtanden (6 in de bovenkaak en 6 in de onderkaak) <br>
+&#8226; 24 kiezen (6 aan iedere kant in de boven- en onderkaak)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 premolaren (valse kiezen)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 molaren <br> 
+&#8226; 4 hoektanden (ook haaktanden of hengstentanden genoemd)<br> 
+<br>
+<b>Totaal</b><br>
+36 tot 42 tanden<br>
+<br>
 
-                  <b>Haaktanden of hengstentanden</b><br>
-                  Komen bij hengsten voor en soms ook bij merries<br>
-                  <br>
-                  <b>De lagen</b><br>
-                  Een tandloze opening tussen snijtanden en de kiezen. Dit is de plaats waar het bit ligt. <br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-gebit/tand.jpg" width="150" border="0">
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     <b>Snijtanden</b><br>
-                     Zij snijden het gras af en brengen het voedsel in de mond.<br>
-                     Wanneer de tand doorkomt is het midden hol en heeft iets weg van een schelp. Deze tand- of
-                     kroonholte (infundibulum) is tapvormig en neemt geleidelijk af in grootte, eerst bij de middelste
-                     tanden en daarna bij de buitenste. Er treedt een verkleuring op in het dentine (tandbeen), dat het
-                     midden vormt van de tand, het tandsterretje. Tijdens de slijtage veranderd het steeretje van vorm
-                     van streepje, tot ovaal tot rond. Op 13-jarige leeftijd is het verdwenen. <br>
-                     Op ca, 10-jarige leeftijd ontstaat een sleuf in de buitenbovensnijtand, de groeve van Galvayne.
-                     <br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-gebit/kies.jpg" width="150" border="0">
-                  </div>
-                  <div class="letterwitvideo">
-                     <b>Kiezen of molaren</b><br>
-                     De kiezen van een paard blijven doorgroeien. Het paard is een planteneter en het voedsel wordt
-                     vermalen tussen de kiezen alvorens het kan worden ingeslikt en een goede vertering kan
-                     plaatsvinden.<br>
-                     De kiezen bestaan uit 3 of 4 premolaren (valse kiezen) aan elke kant van elke kaak, afhankelijk of
-                     er wolfskiezen (1<sup>e</sup> premolaar) aanwezig zijn. Daarachter liggen 3 molaren. <br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <a class="speciaalwittekst" href="gebit.html" target="_self">&nbsp;Meer weten.........</a><br>
-                  <br>
-               </td>
-            </tr>
-         </table>
+<b>Haaktanden of hengstentanden</b><br>
+Komen bij hengsten voor en soms ook bij merries<br>
+<br>
+<b>De lagen</b><br>
+Een tandloze opening tussen snijtanden en de kiezen. Dit is de plaats waar het bit ligt. <br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-gebit/tand.jpg' width ="150" border="0">
+</div>
+<div class="letterwitvideo"> 
+<br>
+<b>Snijtanden</b><br>
+Zij snijden het gras af en brengen het voedsel in de mond.<br>
+Wanneer de tand doorkomt is het midden hol en heeft iets weg van een schelp. Deze tand- of kroonholte (infundibulum)  is tapvormig en neemt geleidelijk af in grootte, eerst bij de middelste tanden en daarna bij de buitenste. Er treedt een verkleuring op in het dentine (tandbeen), dat het midden vormt van de tand, het tandsterretje. Tijdens de slijtage veranderd het steeretje van vorm van streepje, tot ovaal tot rond. Op 13-jarige leeftijd is het verdwenen. <br>
+Op ca, 10-jarige leeftijd  ontstaat een sleuf in de buitenbovensnijtand, de groeve van Galvayne.
+<br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-gebit/kies.jpg' width ="150" border="0">
+</div>
+<div class="letterwitvideo"> 
+<b>Kiezen of molaren</b><br>
+De kiezen van een paard blijven doorgroeien. Het paard is een planteneter en het voedsel wordt vermalen tussen de kiezen alvorens het kan worden ingeslikt en een goede vertering kan plaatsvinden.<br>
+De kiezen bestaan uit 3 of 4 premolaren (valse kiezen) aan elke kant van elke kaak, afhankelijk of er wolfskiezen (1<sup>e</sup> premolaar) aanwezig zijn. Daarachter liggen 3 molaren. <br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit">
+<br>
+<a class="speciaalwittekst"  href="gebit.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
+   </td>
+   </tr>
+   </table>
 
-         <br>
-         <h2 id="spijsvertering"></h2>
-         <br>
-         <br>
+<br>			
+<h2 id="spijsvertering"></h2>
+<br>
+<br>
 
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="titelwit" height="20">
-                  Spijsverteringsstelsel<b></b>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div>
-                     <img src=".. /../paard/img-spijsvertering/spijsverteringsstelsel.jpg"
-                        style="width:100%; max-width:400px" border="0"><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="200">
-                              Bron:<br>
-                              <b>http://thinklikeahorse.org</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  1. mondholte - oris/stoma<br>
-                  2. slokdarm - eosphagus<br>
-                  3. maag - gaster/ventriculus/stomachus<br>
-                  4. dunne darm<br>
-                  &nbsp;&nbsp;&nbsp;- twaalvingerige darm - duodenum<br>
-                  &nbsp;&nbsp;&nbsp;- nuchtere darm - jejunum<br>
-                  &nbsp;&nbsp;&nbsp;- kronkeldarm - ileum<br>
-                  5. blinde darm - caecum<br>
-                  6. en 7. karteldarm - colon<br>
-                  &nbsp;&nbsp;&nbsp;- 6. eerste gedeelte karteldarm - colon ascendens<br>
-                  &nbsp;&nbsp;&nbsp;- 7. laatste gedeelte karteldarm - colon descendens<br>
-                  8. endeldarm - rectum<br>
-                  9. anus/aars - anus<br>
-                  <br>
-                  <b>Functie</b><br>
-                  &#8226; het verteren van voedsel<br>
-                  &#8226; het opnemen van voedsel in de bloedbaan<br>
-                  <br>
-                  <br>
-                  Het paard is een eenmagig dier en een herbivoor (planteneter).<br>
-                  <br>
-                  <a class="speciaalwittekst" href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer
-                     weten.........</a><br>
-                  <br>
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="titelwit"   height="20">
+Spijsverteringsstelsel<b></b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div>
+<img src='../../paard/img-spijsvertering/spijsverteringsstelsel.jpg' style="width:100%; max-width:400px" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="200">
+Bron:<br>
+<b>http://thinklikeahorse.org</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit"> 
+<br>      
+1. mondholte - oris/stoma<br>
+2. slokdarm - eosphagus<br>
+3. maag - gaster/ventriculus/stomachus<br>
+4. dunne darm<br>
+&nbsp;&nbsp;&nbsp;- twaalvingerige darm - duodenum<br>
+&nbsp;&nbsp;&nbsp;- nuchtere darm - jejunum<br>
+&nbsp;&nbsp;&nbsp;- kronkeldarm - ileum<br>
+5. blinde darm - caecum<br>
+6. en 7. karteldarm - colon<br> 
+&nbsp;&nbsp;&nbsp;- 6. eerste gedeelte karteldarm - colon ascendens<br>
+&nbsp;&nbsp;&nbsp;- 7. laatste gedeelte karteldarm - colon descendens<br>
+8. endeldarm - rectum<br>
+9. anus/aars - anus<br>
+<br>
+<b>Functie</b><br>
+&#8226; het verteren van voedsel<br>
+&#8226; het opnemen van voedsel in de bloedbaan<br>
+<br>
+<br>
+Het paard is een eenmagig dier en een herbivoor (planteneter).<br>
+<br>
+<a class="speciaalwittekst"  href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
 
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <p onClick="uitvouwen('sc203')" class="uitvouwentekst">Video <img src="../../img/look-down-arrow.png"
-                        style="float:right; height:25px; "></p>
-                  <div id="sc203" class="wisselen">
-                     <div class="videocel">
-                        <iframe width="150" height="130"
-                           src="http://www.youtube-nocookie.com/embed/maWXVKI-gq4?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe>
-                     </div>
-                     <div class="videocel">
-                        <iframe width="150" height="110"
-                           src="http://www.youtube-nocookie.com/embed/mfysbxvqb40?wmode=transparent" frameborder="0"
-                           allowfullscreen></iframe><br>
-                        <b>koliek operatie</b>
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>Mondholte - oris/stoma</b><br>
-                  <br>
-                  <b>Functie</b><br>
-                  &#8226; opname van voedsel<br>
-                  &#8226; verkleining van voedsel door middel van kauwen<br>
-                  &#8226; de speekselklieren, gestimuleerd door het kauwen, produceren speeksel. Speeksel heeft weinig
-                  verteringskracht maar maakt de voedselmassa tot een voedselbrei en draagt bij aan de voorbereiding van
-                  het verteren van koolhydraten.<br>
-                  &#8226; de tong zorgt voor smaak/proeven en mede voor de vermenging van speeksel en voedsel<br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>Slokdarm - eosphagus</b><br>
-                  Vormt de verbinding tussen de keel - pharynx en de maag - gaster.<br>
-                  Deze bestaat uit kringvormige spieren die zich achter een voedselbrok samentrekken (peristaltiek)
-                  zodat het voedsel zich verplaatst. Tussen slokdarm en maag zit een krachtige sluitspier - cardiac
-                  sphincter waardoor het paard niet kan overgeven.<br>
-                  <br>
-                  <b>Functie</b><br>
-                  &#8226; vervoert het voedsel samen met speeksel door middel van peristaltische bewegingen naar de
-                  maag<br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spijsvertering/maag-1.jpg" width="150" border="0"><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="200">
-                              Bron:<br>
-                              <b>www.eqwisemassage.co.uk</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     <b>Maag - ventriculus (gaster)</b><br>
-                     Relatief klein orgaan. Het kan slechts 10 tot 15 liter bevatten. Capaciteit is dus beperkt zodat
-                     paard meerdere malen per dag voedsel moet opnemen.<br>
-                     In de maag begint de feitelijke vertering.<br>
-                     <br>
-                     <b>Functie</b><br>
-                     &#8226; slaat het voedsel tijdelijk op, omdat deze steeds maar kleine hoeveelheden voedsel
-                     doorstuurt naar de 12 vingerige darm<br>
-                     &#8226; maagzuur en enzymen starten de afbraak van het voedsel (koolhydraten - carbohydraat,
-                     vetten, eiwitten - prote&#239;nen)<br>
-                     &#8226; de maag maakt knedende bewegingen om het enzym en het maagzuur goed te verdelen en in te
-                     laten werken op het voedsel<br>
-                     &#8226; het voedsel verlaat de maag via de maagportier - pylorus<br>
-                     <br>
-                     <a class="speciaalwittekst" href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer
-                        weten.........</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spijsvertering/dunne-darm.jpg" width="150" border="0"><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="200">
-                              Bron:<br>
-                              <b>www.onemedicine.tuskegee.edu</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <img src=".. /../paard/img-spijsvertering/villi.jpg" width="150" border="0"><br>
-                  <div class="videocel">
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     <b>Dunne darm</b><br>
-                     De belangrijkste taak is het absorberen (opnemen in het bloed) van voedsel.<br>
-                     De wand van de dunne darm bestaat uit plooien met daarop zeer veel darmvlokken - villi: deze
-                     plooien zorgen voor oppervlaktevergroting.<br>
-                     De dunne darm bestaat uit:<br>
-                     &#8226; twaalvingerige darm - duodenum <br>
-                     &#8226; nuchtere darm - jejenum<br>
-                     &#8226; kronkeldarm - ileum<br>
-                     <br>
-                     <br>
-                     <b>Functie Twaalfvingerige darm - duodenum</b><br>
-                     &#8226; de lever en alvleesklier monden uit in de twaalfvingerige darm (paard heeft geen
-                     galblaas)<br>
-                     &#8226; deze toevoegingen zorgen voor een genuanceerdere afbraak van het voedsel dan de
-                     maag.<br>
-                     <br>
-                     <b>Functie tweede deel van de dunne darm (jejenum en begin van ileum)</b><br>
-                     &#8226; darmsap zorgt voor verdere vertering van voedsel<br>
-                     &#8226; voedingstoffen worden opgenomen in het bloed door middel van van absoptie
-                     (resorptie)<br>
-                     <br>
-                     <a class="speciaalwittekst" href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer
-                        weten.........</a><br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spijsvertering/caecum.jpg" width="150" border="0"><br>
-                     <b>caecum</b><br>
-                  </div>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spijsvertering/rectum-anus.jpg" width="150" border="0"><br>
-                     <b>colon</b><br>
-                  </div>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-spijsvertering/dikke-darm.jpg" width="150" border="0"><br>
-                     <b>rectum en anus</b><br>
-                     <table border="3">
-                        <tr>
-                           <td class="bronwit" width="150">
-                              Bron:<br>
-                              <b>www.eqwisemassage.co.uk</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     <b>Dikke darm</b><br>
-                     Bestaat uit:<br>
-                     &#8226; blinde darm - caecum<br>
-                     &#8226; karteldarm - colon<br>
-                     &#8226; endeldarm - rectum<br>
-                     &#8226; anus<br>
-                     <br>
-                     <b>De blinde darm - caecum</b><br>
-                     Dit is een grote langwerpige, komma-vormige blinde gistingskamer. Het heeft slechts &#233;&#233;n
-                     opening.<br>
-                     <br>
-                     <b>Functie</b><br>
-                     &#8226; ruwe celstof wordt afgebroken door bacteri&#235;n (gisting) waardoor vluchtige vetzuren
-                     ontstaan<br>
-                     <br>
-                     <br>
-                     <b>karteldarm - Colon</b><br>
-                     &nbsp;&nbsp;&nbsp;- colon ascendens (opstijgende deel)<br>
-                     &nbsp;&nbsp;&nbsp;- colon transversum (dwarse deel)<b<br>r>
-                        &nbsp;&nbsp;&nbsp - colon descendens (afdalende deel)
-                        &nbsp;&nbsp;&nbsp;- colon sigmoideum (laatste gedeelte)<br>
-                        <br>
-                        <b>Functie</b><br>
-                        &#8226; absorberen van water en zouten<br>
-                        &#8226; de aanwezige bacteri&#235;n produceren een vitamine B en K en maken diverse
-                        aminozuren<br>
-                        &#8226; het verder omzetten van plantaardig materiaal in vluchtige vetzuren<br>
-                        <br>
-                        <br>
-                        <b>Endeldarm - rectum (geel)/Anus (rood)</b><br>
-                        <br>
-                        <b>Functie</b><br>
-                        &#8226; opslag van mest<br>
-                        &#8226; onttrekken van water<br>
-                        &#8226; de anus scheidt de onverteerbare voedselresten en gassen uit<br>
-                        <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <a class="speciaalwittekst" href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer
-                     weten.........</a><br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<p onClick="uitvouwen('sc203')" class="uitvouwentekst" >Video <img  src='../../img/look-down-arrow.png' style="float:right; height:25px; " ></p>
+<div id="sc203" class="wisselen">
+   <div class="videocel">
+<iframe width="150" height="130" src="http://www.youtube-nocookie.com/embed/maWXVKI-gq4?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <div class="videocel">
+<iframe width="150" height="110" src="http://www.youtube-nocookie.com/embed/mfysbxvqb40?wmode=transparent" frameborder="0" allowfullscreen></iframe><br>
+<b>koliek operatie</b>
+   </div>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit"> 
+<br> 
+<b>Mondholte - oris/stoma</b><br>
+<br>
+<b>Functie</b><br>
+&#8226; opname van voedsel<br>
+&#8226; verkleining van voedsel door middel van kauwen<br> 
+&#8226; de speekselklieren, gestimuleerd door het kauwen, produceren speeksel. Speeksel heeft weinig verteringskracht maar maakt de voedselmassa tot een voedselbrei en draagt bij aan de voorbereiding van het verteren van koolhydraten.<br>
+&#8226; de tong zorgt voor smaak/proeven en mede voor de vermenging van speeksel en voedsel<br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit"> 
+<br> 
+<b>Slokdarm - eosphagus</b><br>
+Vormt de verbinding tussen de keel - pharynx en de maag  - gaster.<br> 
+Deze bestaat uit kringvormige spieren die zich achter een voedselbrok samentrekken (peristaltiek) zodat het voedsel zich verplaatst. Tussen slokdarm en maag zit een krachtige sluitspier - cardiac sphincter waardoor het paard niet kan overgeven.<br>
+<br>
+<b>Functie</b><br>
+&#8226; vervoert het voedsel samen met speeksel door middel van peristaltische bewegingen naar de maag<br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-spijsvertering/maag-1.jpg' width="150" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="200">
+Bron:<br>
+<b>www.eqwisemassage.co.uk</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<div class="letterwitvideo"> 
+<br> 
+<b>Maag - ventriculus (gaster)</b><br>
+Relatief klein orgaan. Het kan slechts 10 tot 15 liter bevatten. Capaciteit is dus beperkt zodat paard meerdere malen per dag voedsel moet opnemen.<br>
+In de maag begint de feitelijke vertering.<br>
+<br>
+<b>Functie</b><br>
+&#8226; slaat het voedsel tijdelijk op, omdat deze steeds maar kleine hoeveelheden voedsel doorstuurt naar de 12 vingerige darm<br>
+&#8226; maagzuur en enzymen starten de afbraak van het voedsel (koolhydraten - carbohydraat, vetten, eiwitten - prote&#239;nen)<br> 
+&#8226; de maag maakt knedende bewegingen om het enzym en het maagzuur goed te verdelen en in te laten werken op het voedsel<br> 
+&#8226; het voedsel verlaat de maag via de maagportier - pylorus<br>
+<br>
+<a class="speciaalwittekst"  href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-spijsvertering/dunne-darm.jpg' width="150" border="0"><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="200">
+Bron:<br>
+<b>www.onemedicine.tuskegee.edu</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<img src='../../paard/img-spijsvertering/villi.jpg' width="150" border="0"><br>
+<div class="videocel">
+</div>
+<div class="letterwitvideo">
+<br>
+<b>Dunne darm</b><br>
+De belangrijkste taak is het absorberen (opnemen in het bloed) van voedsel.<br>
+De wand van de dunne darm bestaat uit plooien met daarop zeer veel darmvlokken - villi: deze plooien zorgen voor oppervlaktevergroting.<br>
+De dunne darm bestaat uit:<br>
+&#8226; twaalvingerige darm - duodenum <br>
+&#8226; nuchtere darm - jejenum<br>
+&#8226; kronkeldarm - ileum<br>
+<br>
+<br> 
+<b>Functie Twaalfvingerige darm - duodenum</b><br>
+&#8226; de lever en alvleesklier monden uit in de twaalfvingerige darm (paard heeft geen galblaas)<br>
+&#8226; deze toevoegingen zorgen voor een genuanceerdere afbraak van het voedsel dan de maag.<br>
+<br>
+<b>Functie tweede deel van de dunne darm (jejenum en begin van ileum)</b><br>
+&#8226; darmsap zorgt voor verdere vertering van voedsel<br> 
+&#8226; voedingstoffen worden opgenomen in het bloed door middel van van absoptie (resorptie)<br>
+<br>
+<a class="speciaalwittekst"  href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+   </td> 
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-spijsvertering/caecum.jpg' width="150" border="0"><br>
+<b>caecum</b><br>
+</div>
+<div class="videocel">
+<img src='../../paard/img-spijsvertering/rectum-anus.jpg' width="150" border="0"><br>
+<b>colon</b><br>
+</div>
+<div class="videocel">
+<img src='../../paard/img-spijsvertering/dikke-darm.jpg' width="150" border="0"><br>
+<b>rectum en anus</b><br>
+ 	  <table  border="3" >
+	   <tr>
+ 	  <td class="bronwit"  width="150">
+Bron:<br>
+<b>www.eqwisemassage.co.uk</b><br>
+	   </td>
+	   </tr>
+	   </table>
+</div>
+<div class="letterwitvideo">
+<br>
+<b>Dikke darm</b><br>
+Bestaat uit:<br>
+&#8226; blinde darm - caecum<br>
+&#8226; karteldarm - colon<br>
+&#8226; endeldarm - rectum<br>
+&#8226; anus<br>
+<br>
+<b>De blinde darm - caecum</b><br>
+Dit is een grote langwerpige, komma-vormige blinde gistingskamer. Het heeft slechts &#233;&#233;n opening.<br>
+<br>
+<b>Functie</b><br> 
+&#8226; ruwe celstof wordt afgebroken door bacteri&#235;n (gisting) waardoor vluchtige vetzuren ontstaan<br>
+<br>
+<br>
+<b>karteldarm - Colon</b><br>
+&nbsp;&nbsp;&nbsp;- colon ascendens (opstijgende deel)<br>
+&nbsp;&nbsp;&nbsp;- colon transversum (dwarse deel)<b<br>r>
+&nbsp;&nbsp;&nbsp - colon descendens (afdalende deel)
+&nbsp;&nbsp;&nbsp;- colon sigmoideum (laatste gedeelte)<br>
+<br>
+<b>Functie</b><br>
+&#8226; absorberen van water en zouten<br>
+&#8226; de aanwezige bacteri&#235;n produceren een vitamine B en K en maken diverse aminozuren<br>
+&#8226; het verder omzetten van plantaardig materiaal in vluchtige vetzuren<br>
+<br>
+<br>
+<b>Endeldarm - rectum (geel)/Anus (rood)</b><br>
+<br>
+<b>Functie</b><br>
+&#8226; opslag van mest<br>
+&#8226; onttrekken van water<br>
+&#8226; de anus scheidt de onverteerbare voedselresten en gassen uit<br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit"> 
+<br>
+<a class="speciaalwittekst"  href="spijsverteringsstelsel.html" target="_self">&nbsp;Meer weten.........</a><br>
 
-                  <br>
-               </td>
-            </tr>
-         </table>
+<br>
+   </td>   
+   </tr>
+   </table>
 
 
-         <br>
-         <h2 id="bloedsomloop"></h2>
-         <br>
-         <br>
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="titelwit" height="20">
-                  <b>Bloedsomloop</b>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div>
-                     <img src=".. /../paard/img-bloedsomloop/bloedsomloop-paard.gif" style="width:100%; max-width:400px"
-                        border="0"><br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div>
-                     <img src=".. /../paard/img-bloedsomloop/bloedsomloop.jpg" width="250" border="0"><br>
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     Zuurstofrijk bloed wordt meestal rood aangegeven en zuurstofarm blauw.<br>
-                     <br>
-                     <b>Hart</b><br>
-                     1a. rechter boezem - atrium<br>
-                     1b. linker boezem - atrium<br>
-                     1c. linker kamer - ventrikel<br>
-                     1d. rechter kamer - ventrikel<br>
-                     <br>
-                     2. aorta - hoofdslagader<br>
-                     3. leverslagader - arteria hepatica<br>
-                     4. darmslagader - arteria mesenterica<br>
-                     5. longslagaders - arteriae pulmonales<br>
-                     6. halsslagader - arteria carotis<br>
-                     7. onderste holle ader - vena cava inferior<br>
-                     8. leverader - venae hepaticae<br>
-                     9. poortader - vena porta<br>
-                     10. bovenste holle ader - vena cava superior<br>
-                     11. longader - vena pulmonalis<br>
-                     <br>
-                     a. longen<br>
-                     b. nieren<br>
-                     c. andere organen<br>
-                     d. lever<br>
-                     e. darmen<br>
-                     f. voorbenen<br>
-                     g. achterbenen<br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>Functie bloedsomloop</b><br>
-                  &#8226; bloed rond pompen<br>
-                  <br>
-                  Bloeddruk: systolisch 110, gemiddeld 90, diastolisch 70 mm Hg<br>
-                  Hoeveelheid: 9,7 gr per 100 gr lichaamsgewicht<br>
-                  <br>
-                  De bloedsomloop is een systeem van buizen waar het bloed door het hart doorheen gepompt wordt. Het
-                  voorziet de organen en weefsels van hun behoeften en voert afvalproducten en koolzuurgas (kooldioxide)
-                  af. <br>
-                  De bloedsomloop is een <i>"gesloten bloedsomloop"</i> omdat het zuurstofrijke en -arme bloed
-                  gescheiden wordt rondgepompt. Alleen in de haarvaten hebben de beide systemen contact met elkaar. <br>
-                  Zoogdieren hebben een dubbele bloedsomloop:<br>
-                  &#8226; kleine bloedsomloop<br>
-                  &#8226; grote bloedsomloop<br>
-                  <br>
-                  <b>Kleine bloedsomloop</b><br>
-                  Gaat van het hart naar de longen en weer terug.<br>
-                  Bloed komt binnen in het hart in de rechterboezem en wordt via de rechterkamer en longslagader naar de
-                  longen gepompt.<br>
-                  In de longen geeft het bloed koolzuurgas (kooldioxide) af en neemt zuurstof op. Zuurstofrijkbloed gaat
-                  via de longaderen terug naar het hart.<br>
-                  <br>
-                  <b>Grote bloedsomloop</b><br>
-                  Gaat van het hart naar alle delen van het lichaam en weer terug.<br>
-                  Linkerkamer van het hart pompt het bloed via de aorta het lichaam in. De aorta vertakt zich tot
-                  kleinere vaten en uiteindelijk tot een stelsel van haarvaten, heel kleine bloedvaatjes die rondom de
-                  organen liggen. In de haarvaten vindt uitwisseling van zuurstof en voedingsstoffen plaats naar
-                  omliggende organen. De organen gebruiken de voedingsstoffen en zuurstof en geven afvalstoffen en
-                  koolzuurgas (kooldioxide) af aan de haarvaten.<br>
-                  Het zuurstofarme bloed stroomt vervolgens naar de aders, die het weer naar het hart vervoeren.<br>
-                  <br>
-                  <b>Bloedsomloop bestaat uit:</b><br>
-                  &#8226; hart<br>
-                  &#8226; bloedvaten<br>
-                  &#8226; bloed<br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-bloedsomloop/hart-basis.jpg" width="150" border="0">
-                  </div>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-bloedsomloop/animatie-hart.gif" width="150" border="0">
-                  </div>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-bloedsomloop/hart-2.jpg" width="150" border="0">
-                     <table border="1">
-                        <tr>
-                           <td class="bronwit" width="148">
-                              Bron:<br>
-                              <b>www.aaevt.org</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
+<br>			
+<h2 id="bloedsomloop"></h2>
+<br>
+<br>
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="titelwit"   height="20">
+<b>Bloedsomloop</b>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div>
+<img src='../../paard/img-bloedsomloop/bloedsomloop-paard.gif' style="width:100%; max-width:400px"  border="0"><br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div>
+<img src='../../paard/img-bloedsomloop/bloedsomloop.jpg'  width="250" border="0"><br>
+</div>
+<div class="letterwitvideo">
+<br>
+Zuurstofrijk bloed wordt meestal rood aangegeven en zuurstofarm blauw.<br>
+<br>
+<b>Hart</b><br>
+1a. rechter boezem - atrium<br>
+1b. linker boezem - atrium<br>
+1c. linker kamer - ventrikel<br>
+1d. rechter kamer - ventrikel<br>
+<br>
+2.  aorta - hoofdslagader<br>
+3.  leverslagader - arteria hepatica<br>
+4.  darmslagader - arteria mesenterica<br>
+5.  longslagaders - arteriae pulmonales<br>
+6.  halsslagader - arteria carotis<br>
+7.  onderste holle ader - vena cava inferior<br>
+8.  leverader - venae hepaticae<br>
+9.  poortader - vena porta<br>
+10. bovenste holle ader - vena cava superior<br>
+11. longader - vena pulmonalis<br>
+<br>
+a.  longen<br>
+b.  nieren<br>
+c.  andere organen<br>
+d.  lever<br>
+e.  darmen<br>
+f.  voorbenen<br>
+g.  achterbenen<br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit">
+<br>
+<b>Functie bloedsomloop</b><br>
+&#8226; bloed rond pompen<br>
+<br>
+Bloeddruk: systolisch 110, gemiddeld 90, diastolisch 70 mm Hg<br>
+Hoeveelheid: 9,7 gr per 100 gr lichaamsgewicht<br>
+<br>
+De bloedsomloop is een systeem van buizen waar het bloed door het hart doorheen gepompt wordt. Het voorziet de organen en weefsels van hun behoeften en voert afvalproducten en koolzuurgas (kooldioxide) af. <br>
+De bloedsomloop is een <i>"gesloten bloedsomloop"</i> omdat het zuurstofrijke en -arme bloed gescheiden wordt rondgepompt. Alleen in de haarvaten hebben de beide systemen contact met elkaar. <br>
+Zoogdieren hebben een dubbele bloedsomloop:<br>
+&#8226; kleine bloedsomloop<br>
+&#8226; grote bloedsomloop<br>
+<br>
+<b>Kleine bloedsomloop</b><br>
+Gaat van het hart naar de longen en weer terug.<br>
+Bloed komt binnen in het hart in de rechterboezem en wordt via de rechterkamer en longslagader naar de longen gepompt.<br>
+In de longen geeft het bloed koolzuurgas (kooldioxide) af en neemt zuurstof op. Zuurstofrijkbloed gaat via de longaderen terug naar het hart.<br>
+<br>
+<b>Grote bloedsomloop</b><br>
+Gaat van het hart naar alle delen van het lichaam en weer terug.<br>
+Linkerkamer van het hart pompt het bloed via de aorta het lichaam in. De aorta vertakt zich tot kleinere vaten en uiteindelijk tot een stelsel van haarvaten, heel kleine bloedvaatjes die rondom de organen liggen. In de haarvaten vindt uitwisseling van zuurstof en voedingsstoffen plaats naar omliggende organen. De organen gebruiken de voedingsstoffen en zuurstof en geven afvalstoffen en koolzuurgas (kooldioxide) af aan de haarvaten.<br>
+Het zuurstofarme bloed stroomt vervolgens naar de aders, die het weer naar het hart vervoeren.<br>
+<br>
+<b>Bloedsomloop bestaat uit:</b><br>
+&#8226; hart<br>
+&#8226; bloedvaten<br>
+&#8226; bloed<br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td>
+<div class="videocel">
+<img src='../../paard/img-bloedsomloop/hart-basis.jpg'  width="150" border="0">
+</div>
+<div class="videocel">
+<img src='../../paard/img-bloedsomloop/animatie-hart.gif'  width="150" border="0">
+</div>
+<div class="videocel">
+<img src='../../paard/img-bloedsomloop/hart-2.jpg'  width="150" border="0">
+ 	  <table  border="1" >
+	   <tr>
+ 	  <td class="bronwit"  width="148">
+Bron:<br>
+<b>www.aaevt.org</b><br>
+          </td>
+	  </tr>
+	  </table>
+</div>
 
-                  <div class="videocel">
-                     <img src=".. /../paard/img-bloedsomloop/hart-beating.gif" width="150" border="0">
-                  </div>
-                  <div class="letterwitvideo">
-                     <br>
-                     <b>Het hart - cor</b><br>
-                     <br>
-                     <b>Functie</b><br>
-                     Zorgt voor de beweging van het bloed.<br>
-                     <br>
+<div class="videocel">
+<img src='../../paard/img-bloedsomloop/hart-beating.gif'  width="150" border="0">
+</div>
+<div class="letterwitvideo">
+<br>
+<b>Het hart - cor</b><br>
+<br>
+<b>Functie</b><br>
+Zorgt voor de beweging van het bloed.<br>
+<br>
 
-                     Het hart heeft vier hartkamers. Dit zijn holten in het hart waarmee door samentrekking van de
-                     hartspier het bloed de slagaders in gestuwd wordt.:<br>
-                     I. rechter boezem (atrium)<br>
-                     II. linker boezem (atrium)<br>
-                     III. rechter kamer (ventrikel)<br>
-                     IV. linker kamer (ventrikel)<br>
-                     <br>
-                     1. bovenste holle ader<br>
-                     2. aorta<br>
-                     3. longslagader<br>
-                     4. longader<br>
-                     5. onderste holle ader<br>
-                     <br>
-                     &#8226; systole - samentrekken van de hartspier<br>
-                     &#8226; diastole - ontspanning van de hartspier<br>
-                     &#8226; hartslag: 28 - 44/min (veulen ongeveer 76 p/min)<br>
-                     &#8226; hartslag in galop: 200/min<br>
-                     &#8226; gewicht: 0,4 tot 1&#37; van het lichaamsgewicht<br>
-                     <br>
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <a class="speciaalwittekst" href="bloedsomloop.html" target="_self">&nbsp;Meer weten.........</a><br>
-                  <br>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>De bloedvaten</b><br>
-                  Het systeem van holle buizen. Gegroepeerd in twee systemen:
-                  &#8226; kleine bloedsomloop<br>
-                  &#8226; grote bloedsomloop<br>
-                  <br>
-                  De bloedvaten kun je onderverdelen in:<br>
-                  &#8226; slagaders (arteri�n)<br>
-                  &#8226; aders (venen)<br>
-                  &#8226; haarvaten <br>
-                  <br>
-                  <b>Slagaders - arteriae </b>(behalve longslagader)<br>
-                  Vervoeren zuurstof en voedingsstoffen van het hart naar de rest van het lichaam. De druk in de
-                  slagaders is hoog bij iedere hartslag. Een dikke elastische wand met spierweefsel vangt de druk
-                  op.<br>
-                  <br>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-bloedsomloop/kleppen-ader.jpg" width="100" border="0"><br>
-                     kleppen ader
-                  </div>
-                  <div class="letterwitvideo">
-                     <b>Aders - venae</b> (behalve longader)<br>
-                     Vervoeren het bloed naar het hart toe. Dit bloed bevat veel koolzuurgas (kooldioxide) en
-                     afvalstoffen en weinig zuurstof. Zij staan minder onder druk dan de slagaders en hebben daarom een
-                     dunnere wand. In de aders bevinden zich kleppen om het bloed de juiste kant op te laten stromen.
-                     <br>
-                  </div>
-                  <br>
-                  <div class="videocel">
-                     <img src=".. /../paard/img-bloedsomloop/haarvaten.jpg" width="100" border="0"><br>
-                     <table border="1">
-                        <tr>
-                           <td class="bronwit" width="100">
-                              Bron:<br>
-                              <b>www.bioplek.org</b><br>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="letterwitvideo">
-                     <b>Haarvaten - capillairen</b><br>
-                     De haarvaten zijn de dunste buisjes aan het einde van de boedbanen. Hier vindt de uitwisseling
-                     plaats van zuurstof en voedingsstoffen naar het omringende weefsel. Tegelijkertijd worden
-                     afvalstoffen koolzuurgas (kooldioxide) opgenomen en afgevoerd.<br>
-                     1. slagadertjes<br>
-                     2. adertjes<br>
-                     3. lymphevaten<br>
-                  </div>
-                  <br>
-                  <br>
-                  <div class="letterwitvideo">
-                     <b>Kransslagaders - arteria coronaria</b><br>
-                     het hart zelf heeft ook zuurstof en voedingsstoffen nodig. Deze krijgt het hart via de
-                     kransslagaders. Dit zijn speciale aders die in een krans rondom het hart liggen.<br>
-                     <br>
-                     <b>De poortader</b><br>
-                     De leverpoortader vervoert zuurstofarm, voedingsstofrijk bloed van de darmen, maag, milt en
-                     alvleesklier naar de lever. Het opgenomen voedsel wordt bewerkt en eventueel opgeslagen. Ook
-                     verwijdert de lever de meeste gifstoffen (als wel de afvalresten van rode bloedcellen afkomstig van
-                     de milt) uit het bloed voordat deze in de rest van het lichaam kunnen komen.<br>
-                     <br>
-                     <br>
-                     <a class="speciaalwittekst" href="bloedsomloop.html" target="_self">&nbsp;Meer
-                        weten.........</a><br>
-                     <br>
-                  </div>
-                  <div class="videocel">
-                     <table border="1">
-                        <tr>
-                           <td class="tabeltitel">
-                              slagaders
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              van het hart af
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              zuurstofrijk (behalve longslagader)
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              rijk aan koolzuurgas (behalve longader)
-                              </d>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              helderrood
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              hoge wisselende bloeddruk
-                              </d>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              hartslag voelbaar
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              dikke wand
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              alleen kleppen aan begin
-                              </d>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              stroomt snel
-                              </d>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="videocel">
+Het hart heeft vier hartkamers. Dit zijn holten in het hart waarmee door samentrekking van de hartspier het bloed de slagaders in gestuwd wordt.:<br>
+I. rechter boezem (atrium)<br>
+II. linker boezem (atrium)<br>
+III. rechter kamer (ventrikel)<br>
+IV. linker kamer (ventrikel)<br> 
+<br>
+1. bovenste holle ader<br> 
+2. aorta<br> 
+3. longslagader<br> 
+4. longader<br> 
+5. onderste holle ader<br> 
+<br>
+&#8226; systole - samentrekken van de hartspier<br>
+&#8226; diastole - ontspanning van de hartspier<br>
+&#8226; hartslag: 28 - 44/min (veulen ongeveer 76 p/min)<br> 
+&#8226; hartslag in galop: 200/min<br>
+&#8226; gewicht: 0,4 tot 1&#37; van het lichaamsgewicht<br>
+<br>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit">
+<br>
+<a class="speciaalwittekst"  href="bloedsomloop.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit">
+<br>
+<b>De bloedvaten</b><br>
+Het systeem van holle buizen. Gegroepeerd in twee systemen:
+&#8226; kleine bloedsomloop<br>
+&#8226; grote bloedsomloop<br>
+<br>
+De bloedvaten  kun je onderverdelen in:<br>
+&#8226; slagaders (arteri�n)<br>
+&#8226; aders (venen)<br> 
+&#8226; haarvaten <br>
+<br>
+<b>Slagaders - arteriae </b>(behalve longslagader)<br>
+Vervoeren zuurstof  en voedingsstoffen van het hart naar de rest van het lichaam. De druk in de slagaders is hoog bij iedere hartslag. Een dikke elastische wand met spierweefsel vangt de druk op.<br>
+<br>
+<div class="videocel">
+<img src='../../paard/img-bloedsomloop/kleppen-ader.jpg'  width="100" border="0"><br>
+kleppen ader
+</div>
+<div class="letterwitvideo">
+<b>Aders - venae</b> (behalve longader)<br>
+Vervoeren het bloed naar het hart toe.  Dit bloed bevat veel koolzuurgas (kooldioxide) en afvalstoffen en weinig zuurstof. Zij staan minder onder druk dan de slagaders en hebben daarom een dunnere wand. In de aders bevinden zich kleppen om het bloed de juiste kant op te laten stromen. <br> 
+</div>
+<br>
+<div class="videocel">
+<img src='../../paard/img-bloedsomloop/haarvaten.jpg'  width="100" border="0"><br>
+ 	  <table  border="1" >
+	   <tr>
+ 	  <td class="bronwit"  width="100">
+Bron:<br>
+<b>www.bioplek.org</b><br>
+          </td>
+	  </tr>
+	  </table>
+</div>
+<div class="letterwitvideo">
+<b>Haarvaten - capillairen</b><br>
+De haarvaten zijn de dunste buisjes aan het einde van de boedbanen. Hier vindt de uitwisseling plaats van zuurstof en voedingsstoffen naar het omringende weefsel. Tegelijkertijd worden afvalstoffen koolzuurgas (kooldioxide) opgenomen en afgevoerd.<br> 
+1. slagadertjes<br>
+2. adertjes<br>
+3. lymphevaten<br>
+</div>
+<br>
+<br>
+<div class="letterwitvideo">
+<b>Kransslagaders - arteria coronaria</b><br>
+het hart zelf heeft ook zuurstof en voedingsstoffen nodig. Deze krijgt het hart via de kransslagaders. Dit zijn speciale aders die in een krans rondom het hart liggen.<br>
+<br>
+<b>De poortader</b><br>
+De leverpoortader vervoert zuurstofarm, voedingsstofrijk bloed van de darmen, maag, milt en alvleesklier naar de lever. Het opgenomen voedsel wordt bewerkt en eventueel opgeslagen. Ook verwijdert de lever de meeste gifstoffen (als wel de afvalresten van rode bloedcellen afkomstig van de milt) uit het bloed voordat deze in de rest van het lichaam kunnen komen.<br>
+<br> 
+<br>
+<a class="speciaalwittekst"  href="bloedsomloop.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
+</div>
+<div class="videocel">
+	<table border="1">
+	<tr>
+	<td class="tabeltitel">
+slagaders
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+van het hart af
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+zuurstofrijk (behalve longslagader)
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+rijk aan koolzuurgas (behalve longader)
+	</d>
+	</tr>
+	<tr>
+	<td class="letterwit">
+helderrood
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+hoge wisselende bloeddruk
+	</d>
+	</tr>
+	<tr>
+	<td class="letterwit">
+hartslag voelbaar
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+dikke wand
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+alleen kleppen aan begin
+	</d>
+	</tr>
+	<tr>
+	<td class="letterwit">
+stroomt snel
+	</d>
+	</tr>
+	</table>
+</div>
+<div class="videocel">
 
-                     <table border="1">
-                        <tr>
-                           <td class="tabeltitel">
-                              aders
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              naar het hart toe
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              zuurstofarm (behalve longader)
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              arm aan koolzuurgas (behalve longslagader)
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              donkerrood
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              lage bloeddruk
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              hartslag niet voelbaar
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              dunnere wand
-                              </d>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              kleppen
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="letterwit">
-                              stroomt langzaam
-                           </td>
-                        </tr>
-                     </table>
+	<table border="1">
+	<tr>
+	<td class="tabeltitel">
+aders
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+naar het hart toe
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+zuurstofarm (behalve longader)
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+arm aan koolzuurgas (behalve longslagader)
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+donkerrood
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+lage bloeddruk
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+hartslag niet voelbaar
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+dunnere wand
+	</d>
+	</tr>
+	<tr>
+	<td class="letterwit">
+kleppen
+	</td>
+	</tr>
+	<tr>
+	<td class="letterwit">
+stroomt langzaam
+	</td>
+	</tr>
+	</table>
 
-                  </div>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-                  <br>
-                  <b>Het bloed</b><br>
-                  <br>
-                  <b>Functie</b><br>
-                  &#8226; transport gassen (zuurstof en koolzuurgas), voedingsstoffen, hormonen en antilichaampjes.<br>
-                  &#8226; transport van lymfevocht<br>
-                  &#8226; handhaven lichaamstemperatuur<br>
-                  &#8226; beschermende functie, speelt rol bij afweersysteem<br>
-                  &#8226; handhaven constant inwendig milieu<br>
-                  <br>
-                  <b>Samenstelling</b><br>
-                  &#8226; bloedplasma<br>
-                  &#8226; rode bloedcellen - erytrocyyten<br>
-                  &#8226; witten bloedcellen - leukocyten<br>
-                  &#8226; bloedplaatjes - trombocyten<br>
-                  <br>
-                  <b>erytrocyten - rode bloedlichaampjes</b><br>
-                  De erytrocyten bevatten de rode kleurstof hemoglobine. Zuurstof en kooldioxide binden zich aan de
-                  hemoglobine zodat ze getransporteerd kunnen worden.<br>
-                  <br>
-                  <b>leukocyten - rode bloedlichaampjes</b><br>
-                  Zij spelen een rol in het afweersysteem doordat zij de ziekteverwekkers vernietigen en in zich
-                  opnemen. Op deze wijze ontstaat er etter/pus.<br>
-                  <br>
-                  <b>trombocyten - bloedplaatjes</b><br>
-                  Zij zorgen voor de bloedstolling bij een verwonding.<br>
-                  <br>
-                  <a class="speciaalwittekst" href="bloedsomloop.html" target="_self">&nbsp;Meer weten.........</a><br>
-                  <br>
-               </td>
-            <tr>
-            </tr>
-         </table>
+</div>
+   </td>
+   </tr>
+   <tr>
+   <td class="letterwit">
+<br>
+<b>Het bloed</b><br>
+<br>
+<b>Functie</b><br>
+&#8226; transport gassen (zuurstof en koolzuurgas), voedingsstoffen, hormonen en antilichaampjes.<br>
+&#8226; transport van lymfevocht<br>
+&#8226; handhaven lichaamstemperatuur<br>
+&#8226; beschermende functie, speelt rol bij afweersysteem<br> 
+&#8226; handhaven constant inwendig milieu<br>
+<br>
+<b>Samenstelling</b><br>
+&#8226; bloedplasma<br>
+&#8226; rode bloedcellen - erytrocyyten<br>
+&#8226; witten bloedcellen - leukocyten<br>
+&#8226; bloedplaatjes - trombocyten<br>
+<br>
+<b>erytrocyten - rode bloedlichaampjes</b><br>
+De erytrocyten bevatten de rode kleurstof hemoglobine. Zuurstof en kooldioxide binden zich aan de hemoglobine zodat ze getransporteerd kunnen worden.<br>
+<br> 
+<b>leukocyten - rode bloedlichaampjes</b><br> 
+Zij spelen een rol in het afweersysteem doordat zij de ziekteverwekkers vernietigen en in zich opnemen. Op deze wijze ontstaat er etter/pus.<br>
+<br> 
+<b>trombocyten - bloedplaatjes</b><br> 
+Zij zorgen voor de bloedstolling bij een verwonding.<br>
+<br>
+<a class="speciaalwittekst"  href="bloedsomloop.html" target="_self">&nbsp;Meer weten.........</a><br>
+<br>
+   </td>
+   <tr>
+   </tr>
+   </table>
 
 
-         <br>
-         <br>
-         <br>
+<br>			
+<br> 
+<br>
 
-         <table class="tableweetjes" border="3">
-            <tr>
-               <td class="titelwit" height="20">
-                  <b>Advertentie</b>
-               </td>
-            </tr>
-            <tr>
-               <td class="letterwit">
-
-                  <!-- mobieladvertentie -->
-                  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
-                     data-ad-client="ca-pub-1411140217162804" data-ad-slot="6877320974"></ins>
-
-               </td>
-            </tr>
-         </table>
-         <br>
-         <br>
-         <br>
-      </div> <!-- sluit content_tekstweetjes -->
-   </div> <!-- sluit content_container -->
+   <table class="tableweetjes" border="3" >
+   <tr>
+   <td class="titelwit"   height="20">
+<b>Advertentie</b>
+   </td>
+   </tr>
+   <tr>
+  <td  class="letterwit">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- mobieladvertentie -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1411140217162804"
+     data-ad-slot="6877320974"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+   </td>
+   </tr>
+   </table>
+<br>
+<br>
+<br>
+</div> <!-- sluit content_tekstweetjes -->
+</div> <!-- sluit content_container -->
 
 
 
 
 
 
-   <div id="footer_container">
-      <div id="footer">
-         <div id="infomenu">
-            <iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../centrale/infomenu.html"
-               frameborder="0" allowtransparency="true" scrolling="no">
-            </iframe>
-         </div> <!-- sluit footer -->
-         <div id="webdesign">
-            Webdesign: ELJO
-         </div> <!-- sluit webdesign -->
-      </div><!-- sluit footer-container -->
+<div id="footer_container">
+	<div id="footer">
+		<div id="infomenu">
+		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling=no>
+		</iframe>
+		</div>  <!-- sluit footer -->
+	<div id="webdesign">
+Webdesign: ELJO
+	</div>  <!-- sluit webdesign -->
+</div><!-- sluit footer-container -->
 
-   </div> <!-- sluit footer_container -->
-
+</div> <!-- sluit footer_container -->
 
 
 
 
-
-
+<script type="text/javascript" src="../../centrale/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../../centrale/scroll-top.js"></script>
 
 
 
 
 </body>
-
 </html>

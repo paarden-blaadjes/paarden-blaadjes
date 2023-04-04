@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>paarden-blaadjes keuzemenu rechts</title>
@@ -6,6 +5,58 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<meta name="robots" content="noindex,nofollow">
 	<link rel="stylesheet" type="text/css" href="../centrale/stylesheetright1.css">
+
+</script>
+
+
+
+
+
+<script language="JavaScript1.2">
+
+var howOftenimg = 11; //number often in seconds to rotate
+var currentimg = Math.round(Math.random()*0)+10;  //start the counter at random
+var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+// place your images, text, etc in the array elements here
+var itemsimg = new Array();
+    itemsimg[10]="<a href='http://www.reindersruitersport.nl' target='_new'><img alt='img10' src='../adverteerders/reinders/pavo-links.gif' height='0' width='0' border='0'> </a>"; //a linked image
+
+    itemsimg[11]="<a href='http://www.nedlandic.com' target='_new'><img alt='img11' src='../adverteerders/nedlandic/img-links2.gif' height='0' width='0' border='0'></a>"; //a linked image
+
+
+
+
+
+
+
+function rotaterimg() {
+    document.getElementById("placeholder").innerHTML = itemsimg[currentimg ];
+    currentimg  = (currentimg ==itemsimg.length-1) ? 10 : currentimg  + 1;
+    setTimeout("rotater()",howOftenimg*1000);
+}
+
+function rotaterimg() {
+    if(document.layers) {
+        document.placeholderlayer.document.write(itemsimg[currentimg ]);
+        document.placeholderlayer.document.close();
+    }
+    if(ns6)document.getElementById("placeholderdiv").innerHTML=itemsimg[currentimg ]
+        if(document.all)
+            placeholderdiv.innerHTML=itemsimg[currentimg ];
+
+
+}
+
+window.onload=rotaterimg;
+//-->
+</script>
+
+
+
+
+
+                    </script>
 
 </head>
 

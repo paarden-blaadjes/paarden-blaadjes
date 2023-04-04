@@ -15,7 +15,9 @@
 <body>
 
 <div id="main">
-	
+	<div id="vergroten" align="center" >
+Website vergroten/verkleinen: cltr-knop + scrollen
+	</div>
 
   	<div id="achter-main_container">
 		<div id="main_container">
@@ -23,14 +25,14 @@
 			<div id="header_container">
 <div id="menubalk">
 
-		
+		<script type="text/javascript" src="../menus/horizontaal/over-ons-horizontaal.js"></script>
 </div> <!-- sluit menubalk -->
 			</div> <!-- sluit header_container -->
 
 
 				<div id="links_container">
 					<div id="left_top"  align="center">
-		<iframe id="iframereclame-links" name="iframereclame-links" class="iframereclame-links" src="../centrale/reclame-links.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframereclame-links" name="iframereclame-links" class="iframereclame-links" src="../centrale/reclame-links.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 					</div><!-- sluit left_top -->
 					<div id="left">
@@ -43,7 +45,7 @@
 
 				<div id="rechts_container">
 					<div id="right_top" align="center">
-<a href="../over ons/advertenties.html" target="_blank"><img src="../img/advertentie2.jpg" width="110" height="150px" border="0"></a> 
+<a href="../over ons/advertenties.html" target="_blank"><img src='../img/advertentie2.jpg' width="110" height="150px" border="0"></a> 
 
 
 					</div><!-- sluit right_top -->
@@ -169,11 +171,11 @@ p.blaadjes@gmail.com<br>
 
 <div id="footer">
 	<div id="tekstreclame">
-		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframereclame-footer" name="iframereclame-footer" class="iframereclame-footer" src="../centrale/reclame-footer.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 	</div>
 	<div id="infomenu">
-		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling="no">
+		<iframe id="iframeinfo" name="iframereinfo" class="iframeinfo" src="../centrale/infomenu.html"  frameborder="0" allowtransparency="true" scrolling=no>
 		</iframe>
 	</div>
 	<div id="webdesign">
@@ -182,7 +184,6 @@ Webdesign: ELJO
 
 
 </div> <!-- sluit footer_container -->
-
 
 
 
