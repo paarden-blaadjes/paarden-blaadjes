@@ -280,7 +280,7 @@ Bijzonder handig zijn de flappen die je kunt uitvouwen waarop de meest gebruikte
 		</iframe>
 	</div>
 	<div id="webdesign">
-Webdesign: ELJO
+Webdesign: paarden-blaadjes
 	</div>
 
 

@@ -764,7 +764,7 @@ _______________
 		</iframe>
 	</div>
 	<div id="webdesign">
-Webdesign: ELJO
+Webdesign: paarden-blaadjes
 	</div>
 
 </div>

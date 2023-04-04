@@ -594,7 +594,7 @@ kosten
 		</iframe>
 		</div>  <!-- infomenu -->
 		<div id="webdesign">
-Webdesign: ELJO
+Webdesign: paarden-blaadjes
 		</div>  <!-- sluit webdesign -->
 	</div><!-- sluit footer -->
 </div> <!-- sluit footer_container -->

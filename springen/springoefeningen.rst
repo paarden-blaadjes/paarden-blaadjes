@@ -1738,7 +1738,7 @@
       .. container::
          :name: webdesign
 
-         Webdesign: ELJO
+         Webdesign: paarden-blaadjes
 
 .. |springoefening1-1| image:: springoefeningen/springoefening20.jpg
    :name: springoefening1-1
