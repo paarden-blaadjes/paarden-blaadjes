@@ -99,7 +99,7 @@ Website vergroten/verkleinen: cltr-knop + scrollen
 <b>Springoefeningen in zakformaat</b><br>
 ISBN-nummer: 978-90-823973-0-7<br>
 auteur: B.v.d.Giessen<br>
-uitgave: www.paarden-blaadjes.nl<br>
+uitgave: paarden-blaadjes<br>
 		</td>
 		</tr>
 		<tr>

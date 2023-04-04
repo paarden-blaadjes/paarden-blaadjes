@@ -5,7 +5,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<meta name="robots" content="noindex,nofollow">
-	<meta name="keywords" content="advertenties paarden-blaadjes, adverteren paarden-blaadjes.nl">
+	<meta name="keywords" content="advertenties paarden-blaadjes, adverteren paarden-blaadjes">
 	<link rel="stylesheet" type="text/css" href="../centrale/stylesheet1.css">
 	<link rel="stylesheet" type="text/css" href="../menus/horizontaal/droplist-flyout.css"  >
 

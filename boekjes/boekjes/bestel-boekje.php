@@ -199,7 +199,7 @@ Meer dan &#233&#233n boekje: <b>&#8364;12,95 per stuk</b><br>
 <b>Springoefeningen in zakformaat</b><br>
 ISBN-nummer: 978-90-823973-0-7<br>
 auteur: B.v.d.Giessen<br>
-uitgave: www.paarden-blaadjes.nl<br>
+uitgave: paarden-blaadjes<br>
 <br>
 		</td>
 		</tr>
@@ -269,7 +269,7 @@ Meer dan &#233&#233n boekje: <b>&#8364;12,95 per stuk</b><br>
 <b>Dressuuroefeningen in zakformaat</b><br>
 ISBN-nummer: 978-90-823973-1-4<br>
 auteur: B.v.d.Giessen<br>
-uitgave: www.paarden-blaadjes.nl<br>
+uitgave: paarden-blaadjes<br>
 <br>
 		</td>
 		</tr>
@@ -336,7 +336,7 @@ Meer dan &#233&#233n boekje: <b>&#8364;12,95 per stuk</b><br>
 <b>Hulpen dressuur in zakformaat</b><br>
 ISBN-nummer: 978-90-823973-2-1<br>
 auteur: B.v.d.Giessen<br>
-uitgave: www.paarden-blaadjes.nl<br>
+uitgave: paarden-blaadjes<br>
 <br>
 		</td>
 		</tr>
